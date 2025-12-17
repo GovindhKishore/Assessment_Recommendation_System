@@ -4,36 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f0ad9a88-9f1b-461b-a98e-aee2b375d55a" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/ SHL_Assessment_Recommendation_System.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/given_datasets/Gen_AI Dataset.xlsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/given_datasets/test.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/given_datasets/train.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/raw/shl_assessments.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/evaluations/calculate_metrics.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/evaluations/evaluate_predictions.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/evaluations/extract_data.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/evaluations/final_submission_predictions.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/evaluations/recall_analysis_log.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/requirements.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/api/__init.py__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/api/main.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/crawler/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/crawler/crawler.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/crawler/details_parser.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/engine/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/engine/llm_handler.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/engine/retriever.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/engine/vector_store.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ui/streamlit_app.py" afterDir="false" />
-    </list>
+    <list default="true" id="f0ad9a88-9f1b-461b-a98e-aee2b375d55a" name="Changes" comment="Commited the final project" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -49,6 +20,18 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
+  "lastFilter": {
+    "state": "OPEN",
+    "assignee": "GovindhKishore"
+  }
+}]]></component>
+  <component name="GithubPullRequestsUISettings"><![CDATA[{
+  "selectedUrlAndAccountId": {
+    "url": "https://github.com/GovindhKishore/SHL_Assessment_Recommendation_System.git",
+    "accountId": "64a71844-f7f8-4524-ac10-d1efa61de317"
+  }
+}]]></component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 3
 }</component>
@@ -109,12 +92,25 @@
       <workItem from="1765947009534" duration="19087000" />
       <workItem from="1765970219437" duration="7223000" />
       <workItem from="1765989731537" duration="79000" />
-      <workItem from="1765990167252" duration="1639000" />
+      <workItem from="1765990167252" duration="2085000" />
     </task>
+    <task id="LOCAL-00001" summary="Commited the final project">
+      <option name="closed" value="true" />
+      <created>1765991901324</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1765991901324</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Commited the final project" />
+    <option name="LAST_COMMIT_MESSAGE" value="Commited the final project" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/_SHL_Assessment_Recommendation_System$retriever.coverage" NAME="retriever Coverage Results" MODIFIED="1765990305547" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/engine" />
