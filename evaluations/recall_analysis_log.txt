@@ -1,0 +1,828 @@
+# OUTPUT FROM calculate_metrics.py
+
+"C:\Users\govin\PycharmProjects\ SHL_Assessment_Recommendation_System\.venv\Scripts\python.exe" "C:\Users\govin\PycharmProjects\ SHL_Assessment_Recommendation_System\evaluations\calculate_metrics.py"
+Starting metrics calculation (normalized-slug + relaxed matching)...
+
+Loaded 65 test queries.
+Query 1: Missed  (recs=99)
+   Expected name: automata-fix-new
+   Got Top name:  java-2-platform-enterprise-edition-1-4-fundamental
+    1. raw=`https://www.shl.com/products/product-catalog/view/java-2-platform-enterprise-edition-1-4-fundamental/`  name=`java-2-platform-enterprise-edition-1-4-fundamental`
+    2. raw=`https://www.shl.com/products/product-catalog/view/java-8-new/`  name=`java-8-new`
+    3. raw=`https://www.shl.com/products/product-catalog/view/software-business-analysis/`  name=`software-business-analysis`
+    4. raw=`https://www.shl.com/products/product-catalog/view/global-skills-development-report/`  name=`global-skills-development-report`
+    5. raw=`https://www.shl.com/products/product-catalog/view/global-skills-assessment/`  name=`global-skills-assessment`
+    6. raw=`https://www.shl.com/products/product-catalog/view/hipo-assessment-report-1-0/`  name=`hipo-assessment-report-1-0`
+    7. raw=`https://www.shl.com/products/product-catalog/view/remoteworkq/`  name=`remoteworkq`
+    8. raw=`https://www.shl.com/products/product-catalog/view/assessment-and-development-center-exercises/`  name=`assessment-and-development-center-exercises`
+    9. raw=`https://www.shl.com/products/product-catalog/view/job-control-language-new/`  name=`job-control-language-new`
+    10. raw=`https://www.shl.com/products/product-catalog/view/enterprise-java-beans-new/`  name=`enterprise-java-beans-new`
+------------------------------
+Query 2: Missed  (recs=10)
+   Expected name: core-java-entry-level-new
+   Got Top name:  java-2-platform-enterprise-edition-1-4-fundamental
+    1. raw=`https://www.shl.com/products/product-catalog/view/java-2-platform-enterprise-edition-1-4-fundamental/`  name=`java-2-platform-enterprise-edition-1-4-fundamental`
+    2. raw=`https://www.shl.com/products/product-catalog/view/virtual-assessment-and-development-centers/`  name=`virtual-assessment-and-development-centers`
+    3. raw=`https://www.shl.com/products/product-catalog/view/java-8-new/`  name=`java-8-new`
+    4. raw=`https://www.shl.com/products/product-catalog/view/software-business-analysis/`  name=`software-business-analysis`
+    5. raw=`https://www.shl.com/products/product-catalog/view/global-skills-development-report/`  name=`global-skills-development-report`
+    6. raw=`https://www.shl.com/products/product-catalog/view/global-skills-assessment/`  name=`global-skills-assessment`
+    7. raw=`https://www.shl.com/products/product-catalog/view/hipo-assessment-report-1-0/`  name=`hipo-assessment-report-1-0`
+    8. raw=`https://www.shl.com/products/product-catalog/view/remoteworkq/`  name=`remoteworkq`
+    9. raw=`https://www.shl.com/products/product-catalog/view/assessment-and-development-center-exercises/`  name=`assessment-and-development-center-exercises`
+    10. raw=`https://www.shl.com/products/product-catalog/view/job-control-language-new/`  name=`job-control-language-new`
+------------------------------
+Query 3: Found  (recs=10)
+Query 4: Missed  (recs=10)
+   Expected name: core-java-advanced-level-new
+   Got Top name:  java-2-platform-enterprise-edition-1-4-fundamental
+    1. raw=`https://www.shl.com/products/product-catalog/view/java-2-platform-enterprise-edition-1-4-fundamental/`  name=`java-2-platform-enterprise-edition-1-4-fundamental`
+    2. raw=`https://www.shl.com/products/product-catalog/view/virtual-assessment-and-development-centers/`  name=`virtual-assessment-and-development-centers`
+    3. raw=`https://www.shl.com/products/product-catalog/view/java-8-new/`  name=`java-8-new`
+    4. raw=`https://www.shl.com/products/product-catalog/view/software-business-analysis/`  name=`software-business-analysis`
+    5. raw=`https://www.shl.com/products/product-catalog/view/global-skills-development-report/`  name=`global-skills-development-report`
+    6. raw=`https://www.shl.com/products/product-catalog/view/global-skills-assessment/`  name=`global-skills-assessment`
+    7. raw=`https://www.shl.com/products/product-catalog/view/hipo-assessment-report-1-0/`  name=`hipo-assessment-report-1-0`
+    8. raw=`https://www.shl.com/products/product-catalog/view/remoteworkq/`  name=`remoteworkq`
+    9. raw=`https://www.shl.com/products/product-catalog/view/assessment-and-development-center-exercises/`  name=`assessment-and-development-center-exercises`
+    10. raw=`https://www.shl.com/products/product-catalog/view/job-control-language-new/`  name=`job-control-language-new`
+------------------------------
+Query 5: Missed  (recs=10)
+   Expected name: interpersonal-communications
+   Got Top name:  java-2-platform-enterprise-edition-1-4-fundamental
+    1. raw=`https://www.shl.com/products/product-catalog/view/java-2-platform-enterprise-edition-1-4-fundamental/`  name=`java-2-platform-enterprise-edition-1-4-fundamental`
+    2. raw=`https://www.shl.com/products/product-catalog/view/virtual-assessment-and-development-centers/`  name=`virtual-assessment-and-development-centers`
+    3. raw=`https://www.shl.com/products/product-catalog/view/java-8-new/`  name=`java-8-new`
+    4. raw=`https://www.shl.com/products/product-catalog/view/software-business-analysis/`  name=`software-business-analysis`
+    5. raw=`https://www.shl.com/products/product-catalog/view/global-skills-development-report/`  name=`global-skills-development-report`
+    6. raw=`https://www.shl.com/products/product-catalog/view/global-skills-assessment/`  name=`global-skills-assessment`
+    7. raw=`https://www.shl.com/products/product-catalog/view/hipo-assessment-report-1-0/`  name=`hipo-assessment-report-1-0`
+    8. raw=`https://www.shl.com/products/product-catalog/view/remoteworkq/`  name=`remoteworkq`
+    9. raw=`https://www.shl.com/products/product-catalog/view/assessment-and-development-center-exercises/`  name=`assessment-and-development-center-exercises`
+    10. raw=`https://www.shl.com/products/product-catalog/view/job-control-language-new/`  name=`job-control-language-new`
+------------------------------
+Query 6: Missed  (recs=10)
+   Expected name: entry-level-sales-7-1
+   Got Top name:  entry-level-sales-solution
+    1. raw=`https://www.shl.com/products/product-catalog/view/entry-level-sales-solution/`  name=`entry-level-sales-solution`
+    2. raw=`https://www.shl.com/products/product-catalog/view/production-and-industrial-engineering-new/`  name=`production-and-industrial-engineering-new`
+    3. raw=`https://www.shl.com/products/product-catalog/view/sales-interview-guide/`  name=`sales-interview-guide`
+    4. raw=`https://www.shl.com/products/product-catalog/view/salesforce-development-new/`  name=`salesforce-development-new`
+    5. raw=`https://www.shl.com/products/product-catalog/view/production-engineering-new/`  name=`production-engineering-new`
+    6. raw=`https://www.shl.com/products/product-catalog/view/graduate-scenarios/`  name=`graduate-scenarios`
+    7. raw=`https://www.shl.com/products/product-catalog/view/job-control-language-new/`  name=`job-control-language-new`
+    8. raw=`https://www.shl.com/products/product-catalog/view/graduate-scenarios-profile-report/`  name=`graduate-scenarios-profile-report`
+    9. raw=`https://www.shl.com/products/product-catalog/view/front-office-management-new/`  name=`front-office-management-new`
+    10. raw=`https://www.shl.com/products/product-catalog/view/operations-management-new/`  name=`operations-management-new`
+------------------------------
+Query 7: Missed  (recs=10)
+   Expected name: entry-level-sales-sift-out-7-1
+   Got Top name:  entry-level-sales-solution
+    1. raw=`https://www.shl.com/products/product-catalog/view/entry-level-sales-solution/`  name=`entry-level-sales-solution`
+    2. raw=`https://www.shl.com/products/product-catalog/view/production-and-industrial-engineering-new/`  name=`production-and-industrial-engineering-new`
+    3. raw=`https://www.shl.com/products/product-catalog/view/sales-interview-guide/`  name=`sales-interview-guide`
+    4. raw=`https://www.shl.com/products/product-catalog/view/salesforce-development-new/`  name=`salesforce-development-new`
+    5. raw=`https://www.shl.com/products/product-catalog/view/production-engineering-new/`  name=`production-engineering-new`
+    6. raw=`https://www.shl.com/products/product-catalog/view/graduate-scenarios/`  name=`graduate-scenarios`
+    7. raw=`https://www.shl.com/products/product-catalog/view/job-control-language-new/`  name=`job-control-language-new`
+    8. raw=`https://www.shl.com/products/product-catalog/view/graduate-scenarios-profile-report/`  name=`graduate-scenarios-profile-report`
+    9. raw=`https://www.shl.com/products/product-catalog/view/front-office-management-new/`  name=`front-office-management-new`
+    10. raw=`https://www.shl.com/products/product-catalog/view/operations-management-new/`  name=`operations-management-new`
+------------------------------
+Query 8: Found  (recs=10)
+Query 9: Missed  (recs=10)
+   Expected name: sales-representative-solution
+   Got Top name:  entry-level-sales-solution
+    1. raw=`https://www.shl.com/products/product-catalog/view/entry-level-sales-solution/`  name=`entry-level-sales-solution`
+    2. raw=`https://www.shl.com/products/product-catalog/view/production-and-industrial-engineering-new/`  name=`production-and-industrial-engineering-new`
+    3. raw=`https://www.shl.com/products/product-catalog/view/sales-interview-guide/`  name=`sales-interview-guide`
+    4. raw=`https://www.shl.com/products/product-catalog/view/salesforce-development-new/`  name=`salesforce-development-new`
+    5. raw=`https://www.shl.com/products/product-catalog/view/production-engineering-new/`  name=`production-engineering-new`
+    6. raw=`https://www.shl.com/products/product-catalog/view/graduate-scenarios/`  name=`graduate-scenarios`
+    7. raw=`https://www.shl.com/products/product-catalog/view/job-control-language-new/`  name=`job-control-language-new`
+    8. raw=`https://www.shl.com/products/product-catalog/view/graduate-scenarios-profile-report/`  name=`graduate-scenarios-profile-report`
+    9. raw=`https://www.shl.com/products/product-catalog/view/front-office-management-new/`  name=`front-office-management-new`
+    10. raw=`https://www.shl.com/products/product-catalog/view/operations-management-new/`  name=`operations-management-new`
+------------------------------
+Query 10: Missed  (recs=10)
+   Expected name: business-communication-adaptive
+   Got Top name:  entry-level-sales-solution
+    1. raw=`https://www.shl.com/products/product-catalog/view/entry-level-sales-solution/`  name=`entry-level-sales-solution`
+    2. raw=`https://www.shl.com/products/product-catalog/view/production-and-industrial-engineering-new/`  name=`production-and-industrial-engineering-new`
+    3. raw=`https://www.shl.com/products/product-catalog/view/sales-interview-guide/`  name=`sales-interview-guide`
+    4. raw=`https://www.shl.com/products/product-catalog/view/salesforce-development-new/`  name=`salesforce-development-new`
+    5. raw=`https://www.shl.com/products/product-catalog/view/production-engineering-new/`  name=`production-engineering-new`
+    6. raw=`https://www.shl.com/products/product-catalog/view/graduate-scenarios/`  name=`graduate-scenarios`
+    7. raw=`https://www.shl.com/products/product-catalog/view/job-control-language-new/`  name=`job-control-language-new`
+    8. raw=`https://www.shl.com/products/product-catalog/view/graduate-scenarios-profile-report/`  name=`graduate-scenarios-profile-report`
+    9. raw=`https://www.shl.com/products/product-catalog/view/front-office-management-new/`  name=`front-office-management-new`
+    10. raw=`https://www.shl.com/products/product-catalog/view/operations-management-new/`  name=`operations-management-new`
+------------------------------
+Query 11: Missed  (recs=10)
+   Expected name: technical-sales-associate-solution
+   Got Top name:  entry-level-sales-solution
+    1. raw=`https://www.shl.com/products/product-catalog/view/entry-level-sales-solution/`  name=`entry-level-sales-solution`
+    2. raw=`https://www.shl.com/products/product-catalog/view/production-and-industrial-engineering-new/`  name=`production-and-industrial-engineering-new`
+    3. raw=`https://www.shl.com/products/product-catalog/view/sales-interview-guide/`  name=`sales-interview-guide`
+    4. raw=`https://www.shl.com/products/product-catalog/view/salesforce-development-new/`  name=`salesforce-development-new`
+    5. raw=`https://www.shl.com/products/product-catalog/view/production-engineering-new/`  name=`production-engineering-new`
+    6. raw=`https://www.shl.com/products/product-catalog/view/graduate-scenarios/`  name=`graduate-scenarios`
+    7. raw=`https://www.shl.com/products/product-catalog/view/job-control-language-new/`  name=`job-control-language-new`
+    8. raw=`https://www.shl.com/products/product-catalog/view/graduate-scenarios-profile-report/`  name=`graduate-scenarios-profile-report`
+    9. raw=`https://www.shl.com/products/product-catalog/view/front-office-management-new/`  name=`front-office-management-new`
+    10. raw=`https://www.shl.com/products/product-catalog/view/operations-management-new/`  name=`operations-management-new`
+------------------------------
+Query 12: Missed  (recs=10)
+   Expected name: svar-spoken-english-indian-accent-new
+   Got Top name:  entry-level-sales-solution
+    1. raw=`https://www.shl.com/products/product-catalog/view/entry-level-sales-solution/`  name=`entry-level-sales-solution`
+    2. raw=`https://www.shl.com/products/product-catalog/view/production-and-industrial-engineering-new/`  name=`production-and-industrial-engineering-new`
+    3. raw=`https://www.shl.com/products/product-catalog/view/sales-interview-guide/`  name=`sales-interview-guide`
+    4. raw=`https://www.shl.com/products/product-catalog/view/salesforce-development-new/`  name=`salesforce-development-new`
+    5. raw=`https://www.shl.com/products/product-catalog/view/production-engineering-new/`  name=`production-engineering-new`
+    6. raw=`https://www.shl.com/products/product-catalog/view/graduate-scenarios/`  name=`graduate-scenarios`
+    7. raw=`https://www.shl.com/products/product-catalog/view/job-control-language-new/`  name=`job-control-language-new`
+    8. raw=`https://www.shl.com/products/product-catalog/view/graduate-scenarios-profile-report/`  name=`graduate-scenarios-profile-report`
+    9. raw=`https://www.shl.com/products/product-catalog/view/front-office-management-new/`  name=`front-office-management-new`
+    10. raw=`https://www.shl.com/products/product-catalog/view/operations-management-new/`  name=`operations-management-new`
+------------------------------
+Query 13: Missed  (recs=10)
+   Expected name: interpersonal-communications
+   Got Top name:  entry-level-sales-solution
+    1. raw=`https://www.shl.com/products/product-catalog/view/entry-level-sales-solution/`  name=`entry-level-sales-solution`
+    2. raw=`https://www.shl.com/products/product-catalog/view/production-and-industrial-engineering-new/`  name=`production-and-industrial-engineering-new`
+    3. raw=`https://www.shl.com/products/product-catalog/view/sales-interview-guide/`  name=`sales-interview-guide`
+    4. raw=`https://www.shl.com/products/product-catalog/view/salesforce-development-new/`  name=`salesforce-development-new`
+    5. raw=`https://www.shl.com/products/product-catalog/view/production-engineering-new/`  name=`production-engineering-new`
+    6. raw=`https://www.shl.com/products/product-catalog/view/graduate-scenarios/`  name=`graduate-scenarios`
+    7. raw=`https://www.shl.com/products/product-catalog/view/job-control-language-new/`  name=`job-control-language-new`
+    8. raw=`https://www.shl.com/products/product-catalog/view/graduate-scenarios-profile-report/`  name=`graduate-scenarios-profile-report`
+    9. raw=`https://www.shl.com/products/product-catalog/view/front-office-management-new/`  name=`front-office-management-new`
+    10. raw=`https://www.shl.com/products/product-catalog/view/operations-management-new/`  name=`operations-management-new`
+------------------------------
+Query 14: Missed  (recs=10)
+   Expected name: english-comprehension-new
+   Got Top name:  entry-level-sales-solution
+    1. raw=`https://www.shl.com/products/product-catalog/view/entry-level-sales-solution/`  name=`entry-level-sales-solution`
+    2. raw=`https://www.shl.com/products/product-catalog/view/production-and-industrial-engineering-new/`  name=`production-and-industrial-engineering-new`
+    3. raw=`https://www.shl.com/products/product-catalog/view/sales-interview-guide/`  name=`sales-interview-guide`
+    4. raw=`https://www.shl.com/products/product-catalog/view/salesforce-development-new/`  name=`salesforce-development-new`
+    5. raw=`https://www.shl.com/products/product-catalog/view/production-engineering-new/`  name=`production-engineering-new`
+    6. raw=`https://www.shl.com/products/product-catalog/view/graduate-scenarios/`  name=`graduate-scenarios`
+    7. raw=`https://www.shl.com/products/product-catalog/view/job-control-language-new/`  name=`job-control-language-new`
+    8. raw=`https://www.shl.com/products/product-catalog/view/graduate-scenarios-profile-report/`  name=`graduate-scenarios-profile-report`
+    9. raw=`https://www.shl.com/products/product-catalog/view/front-office-management-new/`  name=`front-office-management-new`
+    10. raw=`https://www.shl.com/products/product-catalog/view/operations-management-new/`  name=`operations-management-new`
+------------------------------
+Query 15: Missed  (recs=10)
+   Expected name: enterprise-leadership-report
+   Got Top name:  global-skills-development-report
+    1. raw=`https://www.shl.com/products/product-catalog/view/global-skills-development-report/`  name=`global-skills-development-report`
+    2. raw=`https://www.shl.com/products/product-catalog/view/hipo-assessment-report-1-0/`  name=`hipo-assessment-report-1-0`
+    3. raw=`https://www.shl.com/products/product-catalog/view/global-skills-assessment/`  name=`global-skills-assessment`
+    4. raw=`https://www.shl.com/products/product-catalog/view/virtual-assessment-and-development-centers/`  name=`virtual-assessment-and-development-centers`
+    5. raw=`https://www.shl.com/products/product-catalog/view/hipo-unlocking-potential-report-2-0/`  name=`hipo-unlocking-potential-report-2-0`
+    6. raw=`https://www.shl.com/products/product-catalog/view/essential-focus-8-0/`  name=`essential-focus-8-0`
+    7. raw=`https://www.shl.com/products/product-catalog/view/hipo-assessment-report-2-0/`  name=`hipo-assessment-report-2-0`
+    8. raw=`https://www.shl.com/products/product-catalog/view/mechanical-and-vigilance-focus-8-0/`  name=`mechanical-and-vigilance-focus-8-0`
+    9. raw=`https://www.shl.com/products/product-catalog/view/vigilance-focus-8-0/`  name=`vigilance-focus-8-0`
+    10. raw=`https://www.shl.com/products/product-catalog/view/mechanical-focus-8-0/`  name=`mechanical-focus-8-0`
+------------------------------
+Query 16: Missed  (recs=10)
+   Expected name: occupational-personality-questionnaire-opq32r
+   Got Top name:  global-skills-development-report
+    1. raw=`https://www.shl.com/products/product-catalog/view/global-skills-development-report/`  name=`global-skills-development-report`
+    2. raw=`https://www.shl.com/products/product-catalog/view/hipo-assessment-report-1-0/`  name=`hipo-assessment-report-1-0`
+    3. raw=`https://www.shl.com/products/product-catalog/view/global-skills-assessment/`  name=`global-skills-assessment`
+    4. raw=`https://www.shl.com/products/product-catalog/view/virtual-assessment-and-development-centers/`  name=`virtual-assessment-and-development-centers`
+    5. raw=`https://www.shl.com/products/product-catalog/view/hipo-unlocking-potential-report-2-0/`  name=`hipo-unlocking-potential-report-2-0`
+    6. raw=`https://www.shl.com/products/product-catalog/view/essential-focus-8-0/`  name=`essential-focus-8-0`
+    7. raw=`https://www.shl.com/products/product-catalog/view/hipo-assessment-report-2-0/`  name=`hipo-assessment-report-2-0`
+    8. raw=`https://www.shl.com/products/product-catalog/view/mechanical-and-vigilance-focus-8-0/`  name=`mechanical-and-vigilance-focus-8-0`
+    9. raw=`https://www.shl.com/products/product-catalog/view/vigilance-focus-8-0/`  name=`vigilance-focus-8-0`
+    10. raw=`https://www.shl.com/products/product-catalog/view/mechanical-focus-8-0/`  name=`mechanical-focus-8-0`
+------------------------------
+Query 17: Missed  (recs=10)
+   Expected name: opq-leadership-report
+   Got Top name:  global-skills-development-report
+    1. raw=`https://www.shl.com/products/product-catalog/view/global-skills-development-report/`  name=`global-skills-development-report`
+    2. raw=`https://www.shl.com/products/product-catalog/view/hipo-assessment-report-1-0/`  name=`hipo-assessment-report-1-0`
+    3. raw=`https://www.shl.com/products/product-catalog/view/global-skills-assessment/`  name=`global-skills-assessment`
+    4. raw=`https://www.shl.com/products/product-catalog/view/virtual-assessment-and-development-centers/`  name=`virtual-assessment-and-development-centers`
+    5. raw=`https://www.shl.com/products/product-catalog/view/hipo-unlocking-potential-report-2-0/`  name=`hipo-unlocking-potential-report-2-0`
+    6. raw=`https://www.shl.com/products/product-catalog/view/essential-focus-8-0/`  name=`essential-focus-8-0`
+    7. raw=`https://www.shl.com/products/product-catalog/view/hipo-assessment-report-2-0/`  name=`hipo-assessment-report-2-0`
+    8. raw=`https://www.shl.com/products/product-catalog/view/mechanical-and-vigilance-focus-8-0/`  name=`mechanical-and-vigilance-focus-8-0`
+    9. raw=`https://www.shl.com/products/product-catalog/view/vigilance-focus-8-0/`  name=`vigilance-focus-8-0`
+    10. raw=`https://www.shl.com/products/product-catalog/view/mechanical-focus-8-0/`  name=`mechanical-focus-8-0`
+------------------------------
+Query 18: Missed  (recs=10)
+   Expected name: opq-team-types-and-leadership-styles-report
+   Got Top name:  global-skills-development-report
+    1. raw=`https://www.shl.com/products/product-catalog/view/global-skills-development-report/`  name=`global-skills-development-report`
+    2. raw=`https://www.shl.com/products/product-catalog/view/hipo-assessment-report-1-0/`  name=`hipo-assessment-report-1-0`
+    3. raw=`https://www.shl.com/products/product-catalog/view/global-skills-assessment/`  name=`global-skills-assessment`
+    4. raw=`https://www.shl.com/products/product-catalog/view/virtual-assessment-and-development-centers/`  name=`virtual-assessment-and-development-centers`
+    5. raw=`https://www.shl.com/products/product-catalog/view/hipo-unlocking-potential-report-2-0/`  name=`hipo-unlocking-potential-report-2-0`
+    6. raw=`https://www.shl.com/products/product-catalog/view/essential-focus-8-0/`  name=`essential-focus-8-0`
+    7. raw=`https://www.shl.com/products/product-catalog/view/hipo-assessment-report-2-0/`  name=`hipo-assessment-report-2-0`
+    8. raw=`https://www.shl.com/products/product-catalog/view/mechanical-and-vigilance-focus-8-0/`  name=`mechanical-and-vigilance-focus-8-0`
+    9. raw=`https://www.shl.com/products/product-catalog/view/vigilance-focus-8-0/`  name=`vigilance-focus-8-0`
+    10. raw=`https://www.shl.com/products/product-catalog/view/mechanical-focus-8-0/`  name=`mechanical-focus-8-0`
+------------------------------
+Query 19: Missed  (recs=10)
+   Expected name: enterprise-leadership-report-2-0
+   Got Top name:  global-skills-development-report
+    1. raw=`https://www.shl.com/products/product-catalog/view/global-skills-development-report/`  name=`global-skills-development-report`
+    2. raw=`https://www.shl.com/products/product-catalog/view/hipo-assessment-report-1-0/`  name=`hipo-assessment-report-1-0`
+    3. raw=`https://www.shl.com/products/product-catalog/view/global-skills-assessment/`  name=`global-skills-assessment`
+    4. raw=`https://www.shl.com/products/product-catalog/view/virtual-assessment-and-development-centers/`  name=`virtual-assessment-and-development-centers`
+    5. raw=`https://www.shl.com/products/product-catalog/view/hipo-unlocking-potential-report-2-0/`  name=`hipo-unlocking-potential-report-2-0`
+    6. raw=`https://www.shl.com/products/product-catalog/view/essential-focus-8-0/`  name=`essential-focus-8-0`
+    7. raw=`https://www.shl.com/products/product-catalog/view/hipo-assessment-report-2-0/`  name=`hipo-assessment-report-2-0`
+    8. raw=`https://www.shl.com/products/product-catalog/view/mechanical-and-vigilance-focus-8-0/`  name=`mechanical-and-vigilance-focus-8-0`
+    9. raw=`https://www.shl.com/products/product-catalog/view/vigilance-focus-8-0/`  name=`vigilance-focus-8-0`
+    10. raw=`https://www.shl.com/products/product-catalog/view/mechanical-focus-8-0/`  name=`mechanical-focus-8-0`
+------------------------------
+Query 20: Found  (recs=10)
+Query 21: Missed  (recs=10)
+   Expected name: verify-verbal-ability-next-generation
+   Got Top name:  marketing-new
+    1. raw=`https://www.shl.com/products/product-catalog/view/marketing-new/`  name=`marketing-new`
+    2. raw=`https://www.shl.com/products/product-catalog/view/entry-level-customer-serv-retail-and-contact-center/`  name=`entry-level-customer-serv-retail-and-contact-center`
+    3. raw=`https://www.shl.com/products/product-catalog/view/digital-readiness-development-report/`  name=`digital-readiness-development-report`
+    4. raw=`https://www.shl.com/products/product-catalog/view/entry-level-sales-solution/`  name=`entry-level-sales-solution`
+    5. raw=`https://www.shl.com/products/product-catalog/view/digital-advertising-new/`  name=`digital-advertising-new`
+    6. raw=`https://www.shl.com/products/product-catalog/view/smart-interview-live/`  name=`smart-interview-live`
+    7. raw=`https://www.shl.com/products/product-catalog/view/business-communications/`  name=`business-communications`
+    8. raw=`https://www.shl.com/products/product-catalog/view/essential-focus-8-0/`  name=`essential-focus-8-0`
+    9. raw=`https://www.shl.com/products/product-catalog/view/virtual-assessment-and-development-centers/`  name=`virtual-assessment-and-development-centers`
+    10. raw=`https://www.shl.com/products/product-catalog/view/salestransformationreport2-0-individualcontributor/`  name=`salestransformationreport2-0-individualcontributor`
+------------------------------
+Query 22: Missed  (recs=10)
+   Expected name: shl-verify-interactive-inductive-reasoning
+   Got Top name:  marketing-new
+    1. raw=`https://www.shl.com/products/product-catalog/view/marketing-new/`  name=`marketing-new`
+    2. raw=`https://www.shl.com/products/product-catalog/view/entry-level-customer-serv-retail-and-contact-center/`  name=`entry-level-customer-serv-retail-and-contact-center`
+    3. raw=`https://www.shl.com/products/product-catalog/view/digital-readiness-development-report/`  name=`digital-readiness-development-report`
+    4. raw=`https://www.shl.com/products/product-catalog/view/entry-level-sales-solution/`  name=`entry-level-sales-solution`
+    5. raw=`https://www.shl.com/products/product-catalog/view/digital-advertising-new/`  name=`digital-advertising-new`
+    6. raw=`https://www.shl.com/products/product-catalog/view/smart-interview-live/`  name=`smart-interview-live`
+    7. raw=`https://www.shl.com/products/product-catalog/view/business-communications/`  name=`business-communications`
+    8. raw=`https://www.shl.com/products/product-catalog/view/essential-focus-8-0/`  name=`essential-focus-8-0`
+    9. raw=`https://www.shl.com/products/product-catalog/view/virtual-assessment-and-development-centers/`  name=`virtual-assessment-and-development-centers`
+    10. raw=`https://www.shl.com/products/product-catalog/view/salestransformationreport2-0-individualcontributor/`  name=`salestransformationreport2-0-individualcontributor`
+------------------------------
+Query 23: Found  (recs=10)
+Query 24: Missed  (recs=10)
+   Expected name: english-comprehension-new
+   Got Top name:  marketing-new
+    1. raw=`https://www.shl.com/products/product-catalog/view/marketing-new/`  name=`marketing-new`
+    2. raw=`https://www.shl.com/products/product-catalog/view/entry-level-customer-serv-retail-and-contact-center/`  name=`entry-level-customer-serv-retail-and-contact-center`
+    3. raw=`https://www.shl.com/products/product-catalog/view/digital-readiness-development-report/`  name=`digital-readiness-development-report`
+    4. raw=`https://www.shl.com/products/product-catalog/view/entry-level-sales-solution/`  name=`entry-level-sales-solution`
+    5. raw=`https://www.shl.com/products/product-catalog/view/digital-advertising-new/`  name=`digital-advertising-new`
+    6. raw=`https://www.shl.com/products/product-catalog/view/smart-interview-live/`  name=`smart-interview-live`
+    7. raw=`https://www.shl.com/products/product-catalog/view/business-communications/`  name=`business-communications`
+    8. raw=`https://www.shl.com/products/product-catalog/view/essential-focus-8-0/`  name=`essential-focus-8-0`
+    9. raw=`https://www.shl.com/products/product-catalog/view/virtual-assessment-and-development-centers/`  name=`virtual-assessment-and-development-centers`
+    10. raw=`https://www.shl.com/products/product-catalog/view/salestransformationreport2-0-individualcontributor/`  name=`salestransformationreport2-0-individualcontributor`
+------------------------------
+Query 25: Missed  (recs=10)
+   Expected name: interpersonal-communications
+   Got Top name:  marketing-new
+    1. raw=`https://www.shl.com/products/product-catalog/view/marketing-new/`  name=`marketing-new`
+    2. raw=`https://www.shl.com/products/product-catalog/view/entry-level-customer-serv-retail-and-contact-center/`  name=`entry-level-customer-serv-retail-and-contact-center`
+    3. raw=`https://www.shl.com/products/product-catalog/view/digital-readiness-development-report/`  name=`digital-readiness-development-report`
+    4. raw=`https://www.shl.com/products/product-catalog/view/entry-level-sales-solution/`  name=`entry-level-sales-solution`
+    5. raw=`https://www.shl.com/products/product-catalog/view/digital-advertising-new/`  name=`digital-advertising-new`
+    6. raw=`https://www.shl.com/products/product-catalog/view/smart-interview-live/`  name=`smart-interview-live`
+    7. raw=`https://www.shl.com/products/product-catalog/view/business-communications/`  name=`business-communications`
+    8. raw=`https://www.shl.com/products/product-catalog/view/essential-focus-8-0/`  name=`essential-focus-8-0`
+    9. raw=`https://www.shl.com/products/product-catalog/view/virtual-assessment-and-development-centers/`  name=`virtual-assessment-and-development-centers`
+    10. raw=`https://www.shl.com/products/product-catalog/view/salestransformationreport2-0-individualcontributor/`  name=`salestransformationreport2-0-individualcontributor`
+------------------------------
+Query 26: Missed  (recs=10)
+   Expected name: english-comprehension-new
+   Got Top name:  written-english-v1
+    1. raw=`https://www.shl.com/products/product-catalog/view/written-english-v1/`  name=`written-english-v1`
+    2. raw=`https://www.shl.com/products/product-catalog/view/written-spanish/`  name=`written-spanish`
+    3. raw=`https://www.shl.com/products/product-catalog/view/proofreading-v1/`  name=`proofreading-v1`
+    4. raw=`https://www.shl.com/products/product-catalog/view/writex-email-writing-managerial-new/`  name=`writex-email-writing-managerial-new`
+    5. raw=`https://www.shl.com/products/product-catalog/view/html5-new/`  name=`html5-new`
+    6. raw=`https://www.shl.com/products/product-catalog/view/search-engine-optimization-new/`  name=`search-engine-optimization-new`
+    7. raw=`https://www.shl.com/products/product-catalog/view/writex-email-writing-sales-new/`  name=`writex-email-writing-sales-new`
+    8. raw=`https://www.shl.com/products/product-catalog/view/social-media-new/`  name=`social-media-new`
+    9. raw=`https://www.shl.com/products/product-catalog/view/perl-new/`  name=`perl-new`
+    10. raw=`https://www.shl.com/products/product-catalog/view/following-instructions-v1-uk-r1/`  name=`following-instructions-v1-uk-r1`
+------------------------------
+Query 27: Missed  (recs=10)
+   Expected name: drupal-new
+   Got Top name:  written-english-v1
+    1. raw=`https://www.shl.com/products/product-catalog/view/written-english-v1/`  name=`written-english-v1`
+    2. raw=`https://www.shl.com/products/product-catalog/view/written-spanish/`  name=`written-spanish`
+    3. raw=`https://www.shl.com/products/product-catalog/view/proofreading-v1/`  name=`proofreading-v1`
+    4. raw=`https://www.shl.com/products/product-catalog/view/writex-email-writing-managerial-new/`  name=`writex-email-writing-managerial-new`
+    5. raw=`https://www.shl.com/products/product-catalog/view/html5-new/`  name=`html5-new`
+    6. raw=`https://www.shl.com/products/product-catalog/view/search-engine-optimization-new/`  name=`search-engine-optimization-new`
+    7. raw=`https://www.shl.com/products/product-catalog/view/writex-email-writing-sales-new/`  name=`writex-email-writing-sales-new`
+    8. raw=`https://www.shl.com/products/product-catalog/view/social-media-new/`  name=`social-media-new`
+    9. raw=`https://www.shl.com/products/product-catalog/view/perl-new/`  name=`perl-new`
+    10. raw=`https://www.shl.com/products/product-catalog/view/following-instructions-v1-uk-r1/`  name=`following-instructions-v1-uk-r1`
+------------------------------
+Query 28: Found  (recs=10)
+Query 29: Missed  (recs=10)
+   Expected name: occupational-personality-questionnaire-opq32r
+   Got Top name:  written-english-v1
+    1. raw=`https://www.shl.com/products/product-catalog/view/written-english-v1/`  name=`written-english-v1`
+    2. raw=`https://www.shl.com/products/product-catalog/view/written-spanish/`  name=`written-spanish`
+    3. raw=`https://www.shl.com/products/product-catalog/view/proofreading-v1/`  name=`proofreading-v1`
+    4. raw=`https://www.shl.com/products/product-catalog/view/writex-email-writing-managerial-new/`  name=`writex-email-writing-managerial-new`
+    5. raw=`https://www.shl.com/products/product-catalog/view/html5-new/`  name=`html5-new`
+    6. raw=`https://www.shl.com/products/product-catalog/view/search-engine-optimization-new/`  name=`search-engine-optimization-new`
+    7. raw=`https://www.shl.com/products/product-catalog/view/writex-email-writing-sales-new/`  name=`writex-email-writing-sales-new`
+    8. raw=`https://www.shl.com/products/product-catalog/view/social-media-new/`  name=`social-media-new`
+    9. raw=`https://www.shl.com/products/product-catalog/view/perl-new/`  name=`perl-new`
+    10. raw=`https://www.shl.com/products/product-catalog/view/following-instructions-v1-uk-r1/`  name=`following-instructions-v1-uk-r1`
+------------------------------
+Query 30: Found  (recs=10)
+Query 31: Missed  (recs=10)
+   Expected name: automata-selenium
+   Got Top name:  virtual-assessment-and-development-centers
+    1. raw=`https://www.shl.com/products/product-catalog/view/virtual-assessment-and-development-centers/`  name=`virtual-assessment-and-development-centers`
+    2. raw=`https://www.shl.com/products/product-catalog/view/shl-verify-interactive-inductive-reasoning/`  name=`shl-verify-interactive-inductive-reasoning`
+    3. raw=`https://www.shl.com/products/product-catalog/view/verify-interactive-process-monitoring/`  name=`verify-interactive-process-monitoring`
+    4. raw=`https://www.shl.com/products/product-catalog/view/universal-competency-framework-job-profiling-guide/`  name=`universal-competency-framework-job-profiling-guide`
+    5. raw=`https://www.shl.com/products/product-catalog/view/assessment-and-development-center-exercises/`  name=`assessment-and-development-center-exercises`
+    6. raw=`https://www.shl.com/products/product-catalog/view/remoteworkq/`  name=`remoteworkq`
+    7. raw=`https://www.shl.com/products/product-catalog/view/shl-verify-interactive-deductive-reasoning/`  name=`shl-verify-interactive-deductive-reasoning`
+    8. raw=`https://www.shl.com/products/product-catalog/view/remoteworkq-manager-report/`  name=`remoteworkq-manager-report`
+    9. raw=`https://www.shl.com/products/product-catalog/view/shl-verify-interactive-numerical-reasoning/`  name=`shl-verify-interactive-numerical-reasoning`
+    10. raw=`https://www.shl.com/products/product-catalog/view/smart-interview-live/`  name=`smart-interview-live`
+------------------------------
+Query 32: Missed  (recs=10)
+   Expected name: professional-7-1-solution
+   Got Top name:  virtual-assessment-and-development-centers
+    1. raw=`https://www.shl.com/products/product-catalog/view/virtual-assessment-and-development-centers/`  name=`virtual-assessment-and-development-centers`
+    2. raw=`https://www.shl.com/products/product-catalog/view/shl-verify-interactive-inductive-reasoning/`  name=`shl-verify-interactive-inductive-reasoning`
+    3. raw=`https://www.shl.com/products/product-catalog/view/verify-interactive-process-monitoring/`  name=`verify-interactive-process-monitoring`
+    4. raw=`https://www.shl.com/products/product-catalog/view/universal-competency-framework-job-profiling-guide/`  name=`universal-competency-framework-job-profiling-guide`
+    5. raw=`https://www.shl.com/products/product-catalog/view/assessment-and-development-center-exercises/`  name=`assessment-and-development-center-exercises`
+    6. raw=`https://www.shl.com/products/product-catalog/view/remoteworkq/`  name=`remoteworkq`
+    7. raw=`https://www.shl.com/products/product-catalog/view/shl-verify-interactive-deductive-reasoning/`  name=`shl-verify-interactive-deductive-reasoning`
+    8. raw=`https://www.shl.com/products/product-catalog/view/remoteworkq-manager-report/`  name=`remoteworkq-manager-report`
+    9. raw=`https://www.shl.com/products/product-catalog/view/shl-verify-interactive-numerical-reasoning/`  name=`shl-verify-interactive-numerical-reasoning`
+    10. raw=`https://www.shl.com/products/product-catalog/view/smart-interview-live/`  name=`smart-interview-live`
+------------------------------
+Query 33: Missed  (recs=10)
+   Expected name: javascript-new
+   Got Top name:  virtual-assessment-and-development-centers
+    1. raw=`https://www.shl.com/products/product-catalog/view/virtual-assessment-and-development-centers/`  name=`virtual-assessment-and-development-centers`
+    2. raw=`https://www.shl.com/products/product-catalog/view/shl-verify-interactive-inductive-reasoning/`  name=`shl-verify-interactive-inductive-reasoning`
+    3. raw=`https://www.shl.com/products/product-catalog/view/verify-interactive-process-monitoring/`  name=`verify-interactive-process-monitoring`
+    4. raw=`https://www.shl.com/products/product-catalog/view/universal-competency-framework-job-profiling-guide/`  name=`universal-competency-framework-job-profiling-guide`
+    5. raw=`https://www.shl.com/products/product-catalog/view/assessment-and-development-center-exercises/`  name=`assessment-and-development-center-exercises`
+    6. raw=`https://www.shl.com/products/product-catalog/view/remoteworkq/`  name=`remoteworkq`
+    7. raw=`https://www.shl.com/products/product-catalog/view/shl-verify-interactive-deductive-reasoning/`  name=`shl-verify-interactive-deductive-reasoning`
+    8. raw=`https://www.shl.com/products/product-catalog/view/remoteworkq-manager-report/`  name=`remoteworkq-manager-report`
+    9. raw=`https://www.shl.com/products/product-catalog/view/shl-verify-interactive-numerical-reasoning/`  name=`shl-verify-interactive-numerical-reasoning`
+    10. raw=`https://www.shl.com/products/product-catalog/view/smart-interview-live/`  name=`smart-interview-live`
+------------------------------
+Query 34: Missed  (recs=10)
+   Expected name: htmlcss-new
+   Got Top name:  virtual-assessment-and-development-centers
+    1. raw=`https://www.shl.com/products/product-catalog/view/virtual-assessment-and-development-centers/`  name=`virtual-assessment-and-development-centers`
+    2. raw=`https://www.shl.com/products/product-catalog/view/shl-verify-interactive-inductive-reasoning/`  name=`shl-verify-interactive-inductive-reasoning`
+    3. raw=`https://www.shl.com/products/product-catalog/view/verify-interactive-process-monitoring/`  name=`verify-interactive-process-monitoring`
+    4. raw=`https://www.shl.com/products/product-catalog/view/universal-competency-framework-job-profiling-guide/`  name=`universal-competency-framework-job-profiling-guide`
+    5. raw=`https://www.shl.com/products/product-catalog/view/assessment-and-development-center-exercises/`  name=`assessment-and-development-center-exercises`
+    6. raw=`https://www.shl.com/products/product-catalog/view/remoteworkq/`  name=`remoteworkq`
+    7. raw=`https://www.shl.com/products/product-catalog/view/shl-verify-interactive-deductive-reasoning/`  name=`shl-verify-interactive-deductive-reasoning`
+    8. raw=`https://www.shl.com/products/product-catalog/view/remoteworkq-manager-report/`  name=`remoteworkq-manager-report`
+    9. raw=`https://www.shl.com/products/product-catalog/view/shl-verify-interactive-numerical-reasoning/`  name=`shl-verify-interactive-numerical-reasoning`
+    10. raw=`https://www.shl.com/products/product-catalog/view/smart-interview-live/`  name=`smart-interview-live`
+------------------------------
+Query 35: Missed  (recs=10)
+   Expected name: css3-new
+   Got Top name:  virtual-assessment-and-development-centers
+    1. raw=`https://www.shl.com/products/product-catalog/view/virtual-assessment-and-development-centers/`  name=`virtual-assessment-and-development-centers`
+    2. raw=`https://www.shl.com/products/product-catalog/view/shl-verify-interactive-inductive-reasoning/`  name=`shl-verify-interactive-inductive-reasoning`
+    3. raw=`https://www.shl.com/products/product-catalog/view/verify-interactive-process-monitoring/`  name=`verify-interactive-process-monitoring`
+    4. raw=`https://www.shl.com/products/product-catalog/view/universal-competency-framework-job-profiling-guide/`  name=`universal-competency-framework-job-profiling-guide`
+    5. raw=`https://www.shl.com/products/product-catalog/view/assessment-and-development-center-exercises/`  name=`assessment-and-development-center-exercises`
+    6. raw=`https://www.shl.com/products/product-catalog/view/remoteworkq/`  name=`remoteworkq`
+    7. raw=`https://www.shl.com/products/product-catalog/view/shl-verify-interactive-deductive-reasoning/`  name=`shl-verify-interactive-deductive-reasoning`
+    8. raw=`https://www.shl.com/products/product-catalog/view/remoteworkq-manager-report/`  name=`remoteworkq-manager-report`
+    9. raw=`https://www.shl.com/products/product-catalog/view/shl-verify-interactive-numerical-reasoning/`  name=`shl-verify-interactive-numerical-reasoning`
+    10. raw=`https://www.shl.com/products/product-catalog/view/smart-interview-live/`  name=`smart-interview-live`
+------------------------------
+Query 36: Missed  (recs=10)
+   Expected name: selenium-new
+   Got Top name:  virtual-assessment-and-development-centers
+    1. raw=`https://www.shl.com/products/product-catalog/view/virtual-assessment-and-development-centers/`  name=`virtual-assessment-and-development-centers`
+    2. raw=`https://www.shl.com/products/product-catalog/view/shl-verify-interactive-inductive-reasoning/`  name=`shl-verify-interactive-inductive-reasoning`
+    3. raw=`https://www.shl.com/products/product-catalog/view/verify-interactive-process-monitoring/`  name=`verify-interactive-process-monitoring`
+    4. raw=`https://www.shl.com/products/product-catalog/view/universal-competency-framework-job-profiling-guide/`  name=`universal-competency-framework-job-profiling-guide`
+    5. raw=`https://www.shl.com/products/product-catalog/view/assessment-and-development-center-exercises/`  name=`assessment-and-development-center-exercises`
+    6. raw=`https://www.shl.com/products/product-catalog/view/remoteworkq/`  name=`remoteworkq`
+    7. raw=`https://www.shl.com/products/product-catalog/view/shl-verify-interactive-deductive-reasoning/`  name=`shl-verify-interactive-deductive-reasoning`
+    8. raw=`https://www.shl.com/products/product-catalog/view/remoteworkq-manager-report/`  name=`remoteworkq-manager-report`
+    9. raw=`https://www.shl.com/products/product-catalog/view/shl-verify-interactive-numerical-reasoning/`  name=`shl-verify-interactive-numerical-reasoning`
+    10. raw=`https://www.shl.com/products/product-catalog/view/smart-interview-live/`  name=`smart-interview-live`
+------------------------------
+Query 37: Missed  (recs=10)
+   Expected name: sql-server-new
+   Got Top name:  virtual-assessment-and-development-centers
+    1. raw=`https://www.shl.com/products/product-catalog/view/virtual-assessment-and-development-centers/`  name=`virtual-assessment-and-development-centers`
+    2. raw=`https://www.shl.com/products/product-catalog/view/shl-verify-interactive-inductive-reasoning/`  name=`shl-verify-interactive-inductive-reasoning`
+    3. raw=`https://www.shl.com/products/product-catalog/view/verify-interactive-process-monitoring/`  name=`verify-interactive-process-monitoring`
+    4. raw=`https://www.shl.com/products/product-catalog/view/universal-competency-framework-job-profiling-guide/`  name=`universal-competency-framework-job-profiling-guide`
+    5. raw=`https://www.shl.com/products/product-catalog/view/assessment-and-development-center-exercises/`  name=`assessment-and-development-center-exercises`
+    6. raw=`https://www.shl.com/products/product-catalog/view/remoteworkq/`  name=`remoteworkq`
+    7. raw=`https://www.shl.com/products/product-catalog/view/shl-verify-interactive-deductive-reasoning/`  name=`shl-verify-interactive-deductive-reasoning`
+    8. raw=`https://www.shl.com/products/product-catalog/view/remoteworkq-manager-report/`  name=`remoteworkq-manager-report`
+    9. raw=`https://www.shl.com/products/product-catalog/view/shl-verify-interactive-numerical-reasoning/`  name=`shl-verify-interactive-numerical-reasoning`
+    10. raw=`https://www.shl.com/products/product-catalog/view/smart-interview-live/`  name=`smart-interview-live`
+------------------------------
+Query 38: Missed  (recs=10)
+   Expected name: automata-sql-new
+   Got Top name:  virtual-assessment-and-development-centers
+    1. raw=`https://www.shl.com/products/product-catalog/view/virtual-assessment-and-development-centers/`  name=`virtual-assessment-and-development-centers`
+    2. raw=`https://www.shl.com/products/product-catalog/view/shl-verify-interactive-inductive-reasoning/`  name=`shl-verify-interactive-inductive-reasoning`
+    3. raw=`https://www.shl.com/products/product-catalog/view/verify-interactive-process-monitoring/`  name=`verify-interactive-process-monitoring`
+    4. raw=`https://www.shl.com/products/product-catalog/view/universal-competency-framework-job-profiling-guide/`  name=`universal-competency-framework-job-profiling-guide`
+    5. raw=`https://www.shl.com/products/product-catalog/view/assessment-and-development-center-exercises/`  name=`assessment-and-development-center-exercises`
+    6. raw=`https://www.shl.com/products/product-catalog/view/remoteworkq/`  name=`remoteworkq`
+    7. raw=`https://www.shl.com/products/product-catalog/view/shl-verify-interactive-deductive-reasoning/`  name=`shl-verify-interactive-deductive-reasoning`
+    8. raw=`https://www.shl.com/products/product-catalog/view/remoteworkq-manager-report/`  name=`remoteworkq-manager-report`
+    9. raw=`https://www.shl.com/products/product-catalog/view/shl-verify-interactive-numerical-reasoning/`  name=`shl-verify-interactive-numerical-reasoning`
+    10. raw=`https://www.shl.com/products/product-catalog/view/smart-interview-live/`  name=`smart-interview-live`
+------------------------------
+Query 39: Missed  (recs=10)
+   Expected name: manual-testing-new
+   Got Top name:  virtual-assessment-and-development-centers
+    1. raw=`https://www.shl.com/products/product-catalog/view/virtual-assessment-and-development-centers/`  name=`virtual-assessment-and-development-centers`
+    2. raw=`https://www.shl.com/products/product-catalog/view/shl-verify-interactive-inductive-reasoning/`  name=`shl-verify-interactive-inductive-reasoning`
+    3. raw=`https://www.shl.com/products/product-catalog/view/verify-interactive-process-monitoring/`  name=`verify-interactive-process-monitoring`
+    4. raw=`https://www.shl.com/products/product-catalog/view/universal-competency-framework-job-profiling-guide/`  name=`universal-competency-framework-job-profiling-guide`
+    5. raw=`https://www.shl.com/products/product-catalog/view/assessment-and-development-center-exercises/`  name=`assessment-and-development-center-exercises`
+    6. raw=`https://www.shl.com/products/product-catalog/view/remoteworkq/`  name=`remoteworkq`
+    7. raw=`https://www.shl.com/products/product-catalog/view/shl-verify-interactive-deductive-reasoning/`  name=`shl-verify-interactive-deductive-reasoning`
+    8. raw=`https://www.shl.com/products/product-catalog/view/remoteworkq-manager-report/`  name=`remoteworkq-manager-report`
+    9. raw=`https://www.shl.com/products/product-catalog/view/shl-verify-interactive-numerical-reasoning/`  name=`shl-verify-interactive-numerical-reasoning`
+    10. raw=`https://www.shl.com/products/product-catalog/view/smart-interview-live/`  name=`smart-interview-live`
+------------------------------
+Query 40: Missed  (recs=10)
+   Expected name: administrative-professional-short-form
+   Got Top name:  financial-and-banking-services-new
+    1. raw=`https://www.shl.com/products/product-catalog/view/financial-and-banking-services-new/`  name=`financial-and-banking-services-new`
+    2. raw=`https://www.shl.com/products/product-catalog/view/verify-following-instructions/`  name=`verify-following-instructions`
+    3. raw=`https://www.shl.com/products/product-catalog/view/accounts-payable-new/`  name=`accounts-payable-new`
+    4. raw=`https://www.shl.com/products/product-catalog/view/following-instructions-v1-uk-r1/`  name=`following-instructions-v1-uk-r1`
+    5. raw=`https://www.shl.com/products/product-catalog/view/accounts-payable-simulation-new/`  name=`accounts-payable-simulation-new`
+    6. raw=`https://www.shl.com/products/product-catalog/view/verify-working-with-information/`  name=`verify-working-with-information`
+    7. raw=`https://www.shl.com/products/product-catalog/view/following-instructions-v1-us-r2/`  name=`following-instructions-v1-us-r2`
+    8. raw=`https://www.shl.com/products/product-catalog/view/global-skills-development-report/`  name=`global-skills-development-report`
+    9. raw=`https://www.shl.com/products/product-catalog/view/digital-readiness-development-report/`  name=`digital-readiness-development-report`
+    10. raw=`https://www.shl.com/products/product-catalog/view/financial-accounting-new/`  name=`financial-accounting-new`
+------------------------------
+Query 41: Missed  (recs=10)
+   Expected name: verify-numerical-ability
+   Got Top name:  financial-and-banking-services-new
+    1. raw=`https://www.shl.com/products/product-catalog/view/financial-and-banking-services-new/`  name=`financial-and-banking-services-new`
+    2. raw=`https://www.shl.com/products/product-catalog/view/verify-following-instructions/`  name=`verify-following-instructions`
+    3. raw=`https://www.shl.com/products/product-catalog/view/accounts-payable-new/`  name=`accounts-payable-new`
+    4. raw=`https://www.shl.com/products/product-catalog/view/following-instructions-v1-uk-r1/`  name=`following-instructions-v1-uk-r1`
+    5. raw=`https://www.shl.com/products/product-catalog/view/accounts-payable-simulation-new/`  name=`accounts-payable-simulation-new`
+    6. raw=`https://www.shl.com/products/product-catalog/view/verify-working-with-information/`  name=`verify-working-with-information`
+    7. raw=`https://www.shl.com/products/product-catalog/view/following-instructions-v1-us-r2/`  name=`following-instructions-v1-us-r2`
+    8. raw=`https://www.shl.com/products/product-catalog/view/global-skills-development-report/`  name=`global-skills-development-report`
+    9. raw=`https://www.shl.com/products/product-catalog/view/digital-readiness-development-report/`  name=`digital-readiness-development-report`
+    10. raw=`https://www.shl.com/products/product-catalog/view/financial-accounting-new/`  name=`financial-accounting-new`
+------------------------------
+Query 42: Missed  (recs=10)
+   Expected name: financial-professional-short-form
+   Got Top name:  financial-and-banking-services-new
+    1. raw=`https://www.shl.com/products/product-catalog/view/financial-and-banking-services-new/`  name=`financial-and-banking-services-new`
+    2. raw=`https://www.shl.com/products/product-catalog/view/verify-following-instructions/`  name=`verify-following-instructions`
+    3. raw=`https://www.shl.com/products/product-catalog/view/accounts-payable-new/`  name=`accounts-payable-new`
+    4. raw=`https://www.shl.com/products/product-catalog/view/following-instructions-v1-uk-r1/`  name=`following-instructions-v1-uk-r1`
+    5. raw=`https://www.shl.com/products/product-catalog/view/accounts-payable-simulation-new/`  name=`accounts-payable-simulation-new`
+    6. raw=`https://www.shl.com/products/product-catalog/view/verify-working-with-information/`  name=`verify-working-with-information`
+    7. raw=`https://www.shl.com/products/product-catalog/view/following-instructions-v1-us-r2/`  name=`following-instructions-v1-us-r2`
+    8. raw=`https://www.shl.com/products/product-catalog/view/global-skills-development-report/`  name=`global-skills-development-report`
+    9. raw=`https://www.shl.com/products/product-catalog/view/digital-readiness-development-report/`  name=`digital-readiness-development-report`
+    10. raw=`https://www.shl.com/products/product-catalog/view/financial-accounting-new/`  name=`financial-accounting-new`
+------------------------------
+Query 43: Missed  (recs=10)
+   Expected name: bank-administrative-assistant-short-form
+   Got Top name:  financial-and-banking-services-new
+    1. raw=`https://www.shl.com/products/product-catalog/view/financial-and-banking-services-new/`  name=`financial-and-banking-services-new`
+    2. raw=`https://www.shl.com/products/product-catalog/view/verify-following-instructions/`  name=`verify-following-instructions`
+    3. raw=`https://www.shl.com/products/product-catalog/view/accounts-payable-new/`  name=`accounts-payable-new`
+    4. raw=`https://www.shl.com/products/product-catalog/view/following-instructions-v1-uk-r1/`  name=`following-instructions-v1-uk-r1`
+    5. raw=`https://www.shl.com/products/product-catalog/view/accounts-payable-simulation-new/`  name=`accounts-payable-simulation-new`
+    6. raw=`https://www.shl.com/products/product-catalog/view/verify-working-with-information/`  name=`verify-working-with-information`
+    7. raw=`https://www.shl.com/products/product-catalog/view/following-instructions-v1-us-r2/`  name=`following-instructions-v1-us-r2`
+    8. raw=`https://www.shl.com/products/product-catalog/view/global-skills-development-report/`  name=`global-skills-development-report`
+    9. raw=`https://www.shl.com/products/product-catalog/view/digital-readiness-development-report/`  name=`digital-readiness-development-report`
+    10. raw=`https://www.shl.com/products/product-catalog/view/financial-accounting-new/`  name=`financial-accounting-new`
+------------------------------
+Query 44: Missed  (recs=10)
+   Expected name: general-entry-level-data-entry-7-0-solution
+   Got Top name:  financial-and-banking-services-new
+    1. raw=`https://www.shl.com/products/product-catalog/view/financial-and-banking-services-new/`  name=`financial-and-banking-services-new`
+    2. raw=`https://www.shl.com/products/product-catalog/view/verify-following-instructions/`  name=`verify-following-instructions`
+    3. raw=`https://www.shl.com/products/product-catalog/view/accounts-payable-new/`  name=`accounts-payable-new`
+    4. raw=`https://www.shl.com/products/product-catalog/view/following-instructions-v1-uk-r1/`  name=`following-instructions-v1-uk-r1`
+    5. raw=`https://www.shl.com/products/product-catalog/view/accounts-payable-simulation-new/`  name=`accounts-payable-simulation-new`
+    6. raw=`https://www.shl.com/products/product-catalog/view/verify-working-with-information/`  name=`verify-working-with-information`
+    7. raw=`https://www.shl.com/products/product-catalog/view/following-instructions-v1-us-r2/`  name=`following-instructions-v1-us-r2`
+    8. raw=`https://www.shl.com/products/product-catalog/view/global-skills-development-report/`  name=`global-skills-development-report`
+    9. raw=`https://www.shl.com/products/product-catalog/view/digital-readiness-development-report/`  name=`digital-readiness-development-report`
+    10. raw=`https://www.shl.com/products/product-catalog/view/financial-accounting-new/`  name=`financial-accounting-new`
+------------------------------
+Query 45: Missed  (recs=10)
+   Expected name: basic-computer-literacy-windows-10-new
+   Got Top name:  financial-and-banking-services-new
+    1. raw=`https://www.shl.com/products/product-catalog/view/financial-and-banking-services-new/`  name=`financial-and-banking-services-new`
+    2. raw=`https://www.shl.com/products/product-catalog/view/verify-following-instructions/`  name=`verify-following-instructions`
+    3. raw=`https://www.shl.com/products/product-catalog/view/accounts-payable-new/`  name=`accounts-payable-new`
+    4. raw=`https://www.shl.com/products/product-catalog/view/following-instructions-v1-uk-r1/`  name=`following-instructions-v1-uk-r1`
+    5. raw=`https://www.shl.com/products/product-catalog/view/accounts-payable-simulation-new/`  name=`accounts-payable-simulation-new`
+    6. raw=`https://www.shl.com/products/product-catalog/view/verify-working-with-information/`  name=`verify-working-with-information`
+    7. raw=`https://www.shl.com/products/product-catalog/view/following-instructions-v1-us-r2/`  name=`following-instructions-v1-us-r2`
+    8. raw=`https://www.shl.com/products/product-catalog/view/global-skills-development-report/`  name=`global-skills-development-report`
+    9. raw=`https://www.shl.com/products/product-catalog/view/digital-readiness-development-report/`  name=`digital-readiness-development-report`
+    10. raw=`https://www.shl.com/products/product-catalog/view/financial-accounting-new/`  name=`financial-accounting-new`
+------------------------------
+Query 46: Missed  (recs=10)
+   Expected name: manager-8-0-jfa-4310
+   Got Top name:  marketing-new
+    1. raw=`https://www.shl.com/products/product-catalog/view/marketing-new/`  name=`marketing-new`
+    2. raw=`https://www.shl.com/products/product-catalog/view/sales-transformation-report-individual-contributor/`  name=`sales-transformation-report-individual-contributor`
+    3. raw=`https://www.shl.com/products/product-catalog/view/salestransformationreport2-0-individualcontributor/`  name=`salestransformationreport2-0-individualcontributor`
+    4. raw=`https://www.shl.com/products/product-catalog/view/sales-transformation-report-sales-manager/`  name=`sales-transformation-report-sales-manager`
+    5. raw=`https://www.shl.com/products/product-catalog/view/sales-transformation-report-2-0-sales-manager/`  name=`sales-transformation-report-2-0-sales-manager`
+    6. raw=`https://www.shl.com/products/product-catalog/view/entry-level-sales-solution/`  name=`entry-level-sales-solution`
+    7. raw=`https://www.shl.com/products/product-catalog/view/entry-level-customer-serv-retail-and-contact-center/`  name=`entry-level-customer-serv-retail-and-contact-center`
+    8. raw=`https://www.shl.com/products/product-catalog/view/business-communications/`  name=`business-communications`
+    9. raw=`https://www.shl.com/products/product-catalog/view/essential-focus-8-0/`  name=`essential-focus-8-0`
+    10. raw=`https://www.shl.com/products/product-catalog/view/hipo-assessment-report-1-0/`  name=`hipo-assessment-report-1-0`
+------------------------------
+Query 47: Missed  (recs=10)
+   Expected name: microsoft-excel-365-essentials-new
+   Got Top name:  marketing-new
+    1. raw=`https://www.shl.com/products/product-catalog/view/marketing-new/`  name=`marketing-new`
+    2. raw=`https://www.shl.com/products/product-catalog/view/sales-transformation-report-individual-contributor/`  name=`sales-transformation-report-individual-contributor`
+    3. raw=`https://www.shl.com/products/product-catalog/view/salestransformationreport2-0-individualcontributor/`  name=`salestransformationreport2-0-individualcontributor`
+    4. raw=`https://www.shl.com/products/product-catalog/view/sales-transformation-report-sales-manager/`  name=`sales-transformation-report-sales-manager`
+    5. raw=`https://www.shl.com/products/product-catalog/view/sales-transformation-report-2-0-sales-manager/`  name=`sales-transformation-report-2-0-sales-manager`
+    6. raw=`https://www.shl.com/products/product-catalog/view/entry-level-sales-solution/`  name=`entry-level-sales-solution`
+    7. raw=`https://www.shl.com/products/product-catalog/view/entry-level-customer-serv-retail-and-contact-center/`  name=`entry-level-customer-serv-retail-and-contact-center`
+    8. raw=`https://www.shl.com/products/product-catalog/view/business-communications/`  name=`business-communications`
+    9. raw=`https://www.shl.com/products/product-catalog/view/essential-focus-8-0/`  name=`essential-focus-8-0`
+    10. raw=`https://www.shl.com/products/product-catalog/view/hipo-assessment-report-1-0/`  name=`hipo-assessment-report-1-0`
+------------------------------
+Query 48: Missed  (recs=10)
+   Expected name: digital-advertising-new
+   Got Top name:  marketing-new
+    1. raw=`https://www.shl.com/products/product-catalog/view/marketing-new/`  name=`marketing-new`
+    2. raw=`https://www.shl.com/products/product-catalog/view/sales-transformation-report-individual-contributor/`  name=`sales-transformation-report-individual-contributor`
+    3. raw=`https://www.shl.com/products/product-catalog/view/salestransformationreport2-0-individualcontributor/`  name=`salestransformationreport2-0-individualcontributor`
+    4. raw=`https://www.shl.com/products/product-catalog/view/sales-transformation-report-sales-manager/`  name=`sales-transformation-report-sales-manager`
+    5. raw=`https://www.shl.com/products/product-catalog/view/sales-transformation-report-2-0-sales-manager/`  name=`sales-transformation-report-2-0-sales-manager`
+    6. raw=`https://www.shl.com/products/product-catalog/view/entry-level-sales-solution/`  name=`entry-level-sales-solution`
+    7. raw=`https://www.shl.com/products/product-catalog/view/entry-level-customer-serv-retail-and-contact-center/`  name=`entry-level-customer-serv-retail-and-contact-center`
+    8. raw=`https://www.shl.com/products/product-catalog/view/business-communications/`  name=`business-communications`
+    9. raw=`https://www.shl.com/products/product-catalog/view/essential-focus-8-0/`  name=`essential-focus-8-0`
+    10. raw=`https://www.shl.com/products/product-catalog/view/hipo-assessment-report-1-0/`  name=`hipo-assessment-report-1-0`
+------------------------------
+Query 49: Missed  (recs=10)
+   Expected name: shl-verify-interactive-inductive-reasoning
+   Got Top name:  marketing-new
+    1. raw=`https://www.shl.com/products/product-catalog/view/marketing-new/`  name=`marketing-new`
+    2. raw=`https://www.shl.com/products/product-catalog/view/sales-transformation-report-individual-contributor/`  name=`sales-transformation-report-individual-contributor`
+    3. raw=`https://www.shl.com/products/product-catalog/view/salestransformationreport2-0-individualcontributor/`  name=`salestransformationreport2-0-individualcontributor`
+    4. raw=`https://www.shl.com/products/product-catalog/view/sales-transformation-report-sales-manager/`  name=`sales-transformation-report-sales-manager`
+    5. raw=`https://www.shl.com/products/product-catalog/view/sales-transformation-report-2-0-sales-manager/`  name=`sales-transformation-report-2-0-sales-manager`
+    6. raw=`https://www.shl.com/products/product-catalog/view/entry-level-sales-solution/`  name=`entry-level-sales-solution`
+    7. raw=`https://www.shl.com/products/product-catalog/view/entry-level-customer-serv-retail-and-contact-center/`  name=`entry-level-customer-serv-retail-and-contact-center`
+    8. raw=`https://www.shl.com/products/product-catalog/view/business-communications/`  name=`business-communications`
+    9. raw=`https://www.shl.com/products/product-catalog/view/essential-focus-8-0/`  name=`essential-focus-8-0`
+    10. raw=`https://www.shl.com/products/product-catalog/view/hipo-assessment-report-1-0/`  name=`hipo-assessment-report-1-0`
+------------------------------
+Query 50: Missed  (recs=10)
+   Expected name: writex-email-writing-sales-new
+   Got Top name:  marketing-new
+    1. raw=`https://www.shl.com/products/product-catalog/view/marketing-new/`  name=`marketing-new`
+    2. raw=`https://www.shl.com/products/product-catalog/view/sales-transformation-report-individual-contributor/`  name=`sales-transformation-report-individual-contributor`
+    3. raw=`https://www.shl.com/products/product-catalog/view/salestransformationreport2-0-individualcontributor/`  name=`salestransformationreport2-0-individualcontributor`
+    4. raw=`https://www.shl.com/products/product-catalog/view/sales-transformation-report-sales-manager/`  name=`sales-transformation-report-sales-manager`
+    5. raw=`https://www.shl.com/products/product-catalog/view/sales-transformation-report-2-0-sales-manager/`  name=`sales-transformation-report-2-0-sales-manager`
+    6. raw=`https://www.shl.com/products/product-catalog/view/entry-level-sales-solution/`  name=`entry-level-sales-solution`
+    7. raw=`https://www.shl.com/products/product-catalog/view/entry-level-customer-serv-retail-and-contact-center/`  name=`entry-level-customer-serv-retail-and-contact-center`
+    8. raw=`https://www.shl.com/products/product-catalog/view/business-communications/`  name=`business-communications`
+    9. raw=`https://www.shl.com/products/product-catalog/view/essential-focus-8-0/`  name=`essential-focus-8-0`
+    10. raw=`https://www.shl.com/products/product-catalog/view/hipo-assessment-report-1-0/`  name=`hipo-assessment-report-1-0`
+------------------------------
+Query 51: Missed  (recs=10)
+   Expected name: shl-verify-interactive-numerical-calculation
+   Got Top name:  sales-transformation-report-sales-manager
+    1. raw=`https://www.shl.com/products/product-catalog/view/sales-transformation-report-sales-manager/`  name=`sales-transformation-report-sales-manager`
+    2. raw=`https://www.shl.com/products/product-catalog/view/sales-transformation-report-2-0-sales-manager/`  name=`sales-transformation-report-2-0-sales-manager`
+    3. raw=`https://www.shl.com/products/product-catalog/view/software-business-analysis/`  name=`software-business-analysis`
+    4. raw=`https://www.shl.com/products/product-catalog/view/global-skills-development-report/`  name=`global-skills-development-report`
+    5. raw=`https://www.shl.com/products/product-catalog/view/pjm-selection-report/`  name=`pjm-selection-report`
+    6. raw=`https://www.shl.com/products/product-catalog/view/pjm-development-report/`  name=`pjm-development-report`
+    7. raw=`https://www.shl.com/products/product-catalog/view/virtual-assessment-and-development-centers/`  name=`virtual-assessment-and-development-centers`
+    8. raw=`https://www.shl.com/products/product-catalog/view/hipo-unlocking-potential-report-2-0/`  name=`hipo-unlocking-potential-report-2-0`
+    9. raw=`https://www.shl.com/products/product-catalog/view/global-skills-assessment/`  name=`global-skills-assessment`
+    10. raw=`https://www.shl.com/products/product-catalog/view/project-management-2013/`  name=`project-management-2013`
+------------------------------
+Query 52: Missed  (recs=10)
+   Expected name: administrative-professional-short-form
+   Got Top name:  sales-transformation-report-sales-manager
+    1. raw=`https://www.shl.com/products/product-catalog/view/sales-transformation-report-sales-manager/`  name=`sales-transformation-report-sales-manager`
+    2. raw=`https://www.shl.com/products/product-catalog/view/sales-transformation-report-2-0-sales-manager/`  name=`sales-transformation-report-2-0-sales-manager`
+    3. raw=`https://www.shl.com/products/product-catalog/view/software-business-analysis/`  name=`software-business-analysis`
+    4. raw=`https://www.shl.com/products/product-catalog/view/global-skills-development-report/`  name=`global-skills-development-report`
+    5. raw=`https://www.shl.com/products/product-catalog/view/pjm-selection-report/`  name=`pjm-selection-report`
+    6. raw=`https://www.shl.com/products/product-catalog/view/pjm-development-report/`  name=`pjm-development-report`
+    7. raw=`https://www.shl.com/products/product-catalog/view/virtual-assessment-and-development-centers/`  name=`virtual-assessment-and-development-centers`
+    8. raw=`https://www.shl.com/products/product-catalog/view/hipo-unlocking-potential-report-2-0/`  name=`hipo-unlocking-potential-report-2-0`
+    9. raw=`https://www.shl.com/products/product-catalog/view/global-skills-assessment/`  name=`global-skills-assessment`
+    10. raw=`https://www.shl.com/products/product-catalog/view/project-management-2013/`  name=`project-management-2013`
+------------------------------
+Query 53: Missed  (recs=10)
+   Expected name: verify-verbal-ability-next-generation
+   Got Top name:  sales-transformation-report-sales-manager
+    1. raw=`https://www.shl.com/products/product-catalog/view/sales-transformation-report-sales-manager/`  name=`sales-transformation-report-sales-manager`
+    2. raw=`https://www.shl.com/products/product-catalog/view/sales-transformation-report-2-0-sales-manager/`  name=`sales-transformation-report-2-0-sales-manager`
+    3. raw=`https://www.shl.com/products/product-catalog/view/software-business-analysis/`  name=`software-business-analysis`
+    4. raw=`https://www.shl.com/products/product-catalog/view/global-skills-development-report/`  name=`global-skills-development-report`
+    5. raw=`https://www.shl.com/products/product-catalog/view/pjm-selection-report/`  name=`pjm-selection-report`
+    6. raw=`https://www.shl.com/products/product-catalog/view/pjm-development-report/`  name=`pjm-development-report`
+    7. raw=`https://www.shl.com/products/product-catalog/view/virtual-assessment-and-development-centers/`  name=`virtual-assessment-and-development-centers`
+    8. raw=`https://www.shl.com/products/product-catalog/view/hipo-unlocking-potential-report-2-0/`  name=`hipo-unlocking-potential-report-2-0`
+    9. raw=`https://www.shl.com/products/product-catalog/view/global-skills-assessment/`  name=`global-skills-assessment`
+    10. raw=`https://www.shl.com/products/product-catalog/view/project-management-2013/`  name=`project-management-2013`
+------------------------------
+Query 54: Missed  (recs=10)
+   Expected name: occupational-personality-questionnaire-opq32r
+   Got Top name:  sales-transformation-report-sales-manager
+    1. raw=`https://www.shl.com/products/product-catalog/view/sales-transformation-report-sales-manager/`  name=`sales-transformation-report-sales-manager`
+    2. raw=`https://www.shl.com/products/product-catalog/view/sales-transformation-report-2-0-sales-manager/`  name=`sales-transformation-report-2-0-sales-manager`
+    3. raw=`https://www.shl.com/products/product-catalog/view/software-business-analysis/`  name=`software-business-analysis`
+    4. raw=`https://www.shl.com/products/product-catalog/view/global-skills-development-report/`  name=`global-skills-development-report`
+    5. raw=`https://www.shl.com/products/product-catalog/view/pjm-selection-report/`  name=`pjm-selection-report`
+    6. raw=`https://www.shl.com/products/product-catalog/view/pjm-development-report/`  name=`pjm-development-report`
+    7. raw=`https://www.shl.com/products/product-catalog/view/virtual-assessment-and-development-centers/`  name=`virtual-assessment-and-development-centers`
+    8. raw=`https://www.shl.com/products/product-catalog/view/hipo-unlocking-potential-report-2-0/`  name=`hipo-unlocking-potential-report-2-0`
+    9. raw=`https://www.shl.com/products/product-catalog/view/global-skills-assessment/`  name=`global-skills-assessment`
+    10. raw=`https://www.shl.com/products/product-catalog/view/project-management-2013/`  name=`project-management-2013`
+------------------------------
+Query 55: Missed  (recs=10)
+   Expected name: professional-7-1-solution
+   Got Top name:  sales-transformation-report-sales-manager
+    1. raw=`https://www.shl.com/products/product-catalog/view/sales-transformation-report-sales-manager/`  name=`sales-transformation-report-sales-manager`
+    2. raw=`https://www.shl.com/products/product-catalog/view/sales-transformation-report-2-0-sales-manager/`  name=`sales-transformation-report-2-0-sales-manager`
+    3. raw=`https://www.shl.com/products/product-catalog/view/software-business-analysis/`  name=`software-business-analysis`
+    4. raw=`https://www.shl.com/products/product-catalog/view/global-skills-development-report/`  name=`global-skills-development-report`
+    5. raw=`https://www.shl.com/products/product-catalog/view/pjm-selection-report/`  name=`pjm-selection-report`
+    6. raw=`https://www.shl.com/products/product-catalog/view/pjm-development-report/`  name=`pjm-development-report`
+    7. raw=`https://www.shl.com/products/product-catalog/view/virtual-assessment-and-development-centers/`  name=`virtual-assessment-and-development-centers`
+    8. raw=`https://www.shl.com/products/product-catalog/view/hipo-unlocking-potential-report-2-0/`  name=`hipo-unlocking-potential-report-2-0`
+    9. raw=`https://www.shl.com/products/product-catalog/view/global-skills-assessment/`  name=`global-skills-assessment`
+    10. raw=`https://www.shl.com/products/product-catalog/view/project-management-2013/`  name=`project-management-2013`
+------------------------------
+Query 56: Found  (recs=10)
+Query 57: Missed  (recs=10)
+   Expected name: sql-server-new
+   Got Top name:  hipo-unlocking-potential-report-2-0
+    1. raw=`https://www.shl.com/products/product-catalog/view/hipo-unlocking-potential-report-2-0/`  name=`hipo-unlocking-potential-report-2-0`
+    2. raw=`https://www.shl.com/products/product-catalog/view/sql-server-analysis-services-%28ssas%29-%28new%29/`  name=`sql-server-analysis-services-ssas-new`
+    3. raw=`https://www.shl.com/products/product-catalog/view/software-business-analysis/`  name=`software-business-analysis`
+    4. raw=`https://www.shl.com/products/product-catalog/view/hipo-assessment-report-1-0/`  name=`hipo-assessment-report-1-0`
+    5. raw=`https://www.shl.com/products/product-catalog/view/data-science-new/`  name=`data-science-new`
+    6. raw=`https://www.shl.com/products/product-catalog/view/opq-ucf-development-action-planner-report/`  name=`opq-ucf-development-action-planner-report`
+    7. raw=`https://www.shl.com/products/product-catalog/view/opq-universal-competency-report/`  name=`opq-universal-competency-report`
+    8. raw=`https://www.shl.com/products/product-catalog/view/opq-universal-competency-report-2-0/`  name=`opq-universal-competency-report-2-0`
+    9. raw=`https://www.shl.com/products/product-catalog/view/ms-excel-new/`  name=`ms-excel-new`
+    10. raw=`https://www.shl.com/products/product-catalog/view/microsoft-sql-server-2014-programming/`  name=`microsoft-sql-server-2014-programming`
+------------------------------
+Query 58: Missed  (recs=10)
+   Expected name: automata-sql-new
+   Got Top name:  hipo-unlocking-potential-report-2-0
+    1. raw=`https://www.shl.com/products/product-catalog/view/hipo-unlocking-potential-report-2-0/`  name=`hipo-unlocking-potential-report-2-0`
+    2. raw=`https://www.shl.com/products/product-catalog/view/sql-server-analysis-services-%28ssas%29-%28new%29/`  name=`sql-server-analysis-services-ssas-new`
+    3. raw=`https://www.shl.com/products/product-catalog/view/software-business-analysis/`  name=`software-business-analysis`
+    4. raw=`https://www.shl.com/products/product-catalog/view/hipo-assessment-report-1-0/`  name=`hipo-assessment-report-1-0`
+    5. raw=`https://www.shl.com/products/product-catalog/view/data-science-new/`  name=`data-science-new`
+    6. raw=`https://www.shl.com/products/product-catalog/view/opq-ucf-development-action-planner-report/`  name=`opq-ucf-development-action-planner-report`
+    7. raw=`https://www.shl.com/products/product-catalog/view/opq-universal-competency-report/`  name=`opq-universal-competency-report`
+    8. raw=`https://www.shl.com/products/product-catalog/view/opq-universal-competency-report-2-0/`  name=`opq-universal-competency-report-2-0`
+    9. raw=`https://www.shl.com/products/product-catalog/view/ms-excel-new/`  name=`ms-excel-new`
+    10. raw=`https://www.shl.com/products/product-catalog/view/microsoft-sql-server-2014-programming/`  name=`microsoft-sql-server-2014-programming`
+------------------------------
+Query 59: Missed  (recs=10)
+   Expected name: python-new
+   Got Top name:  hipo-unlocking-potential-report-2-0
+    1. raw=`https://www.shl.com/products/product-catalog/view/hipo-unlocking-potential-report-2-0/`  name=`hipo-unlocking-potential-report-2-0`
+    2. raw=`https://www.shl.com/products/product-catalog/view/sql-server-analysis-services-%28ssas%29-%28new%29/`  name=`sql-server-analysis-services-ssas-new`
+    3. raw=`https://www.shl.com/products/product-catalog/view/software-business-analysis/`  name=`software-business-analysis`
+    4. raw=`https://www.shl.com/products/product-catalog/view/hipo-assessment-report-1-0/`  name=`hipo-assessment-report-1-0`
+    5. raw=`https://www.shl.com/products/product-catalog/view/data-science-new/`  name=`data-science-new`
+    6. raw=`https://www.shl.com/products/product-catalog/view/opq-ucf-development-action-planner-report/`  name=`opq-ucf-development-action-planner-report`
+    7. raw=`https://www.shl.com/products/product-catalog/view/opq-universal-competency-report/`  name=`opq-universal-competency-report`
+    8. raw=`https://www.shl.com/products/product-catalog/view/opq-universal-competency-report-2-0/`  name=`opq-universal-competency-report-2-0`
+    9. raw=`https://www.shl.com/products/product-catalog/view/ms-excel-new/`  name=`ms-excel-new`
+    10. raw=`https://www.shl.com/products/product-catalog/view/microsoft-sql-server-2014-programming/`  name=`microsoft-sql-server-2014-programming`
+------------------------------
+Query 60: Missed  (recs=10)
+   Expected name: tableau-new
+   Got Top name:  hipo-unlocking-potential-report-2-0
+    1. raw=`https://www.shl.com/products/product-catalog/view/hipo-unlocking-potential-report-2-0/`  name=`hipo-unlocking-potential-report-2-0`
+    2. raw=`https://www.shl.com/products/product-catalog/view/sql-server-analysis-services-%28ssas%29-%28new%29/`  name=`sql-server-analysis-services-ssas-new`
+    3. raw=`https://www.shl.com/products/product-catalog/view/software-business-analysis/`  name=`software-business-analysis`
+    4. raw=`https://www.shl.com/products/product-catalog/view/hipo-assessment-report-1-0/`  name=`hipo-assessment-report-1-0`
+    5. raw=`https://www.shl.com/products/product-catalog/view/data-science-new/`  name=`data-science-new`
+    6. raw=`https://www.shl.com/products/product-catalog/view/opq-ucf-development-action-planner-report/`  name=`opq-ucf-development-action-planner-report`
+    7. raw=`https://www.shl.com/products/product-catalog/view/opq-universal-competency-report/`  name=`opq-universal-competency-report`
+    8. raw=`https://www.shl.com/products/product-catalog/view/opq-universal-competency-report-2-0/`  name=`opq-universal-competency-report-2-0`
+    9. raw=`https://www.shl.com/products/product-catalog/view/ms-excel-new/`  name=`ms-excel-new`
+    10. raw=`https://www.shl.com/products/product-catalog/view/microsoft-sql-server-2014-programming/`  name=`microsoft-sql-server-2014-programming`
+------------------------------
+Query 61: Missed  (recs=10)
+   Expected name: microsoft-excel-365-new
+   Got Top name:  hipo-unlocking-potential-report-2-0
+    1. raw=`https://www.shl.com/products/product-catalog/view/hipo-unlocking-potential-report-2-0/`  name=`hipo-unlocking-potential-report-2-0`
+    2. raw=`https://www.shl.com/products/product-catalog/view/sql-server-analysis-services-%28ssas%29-%28new%29/`  name=`sql-server-analysis-services-ssas-new`
+    3. raw=`https://www.shl.com/products/product-catalog/view/software-business-analysis/`  name=`software-business-analysis`
+    4. raw=`https://www.shl.com/products/product-catalog/view/hipo-assessment-report-1-0/`  name=`hipo-assessment-report-1-0`
+    5. raw=`https://www.shl.com/products/product-catalog/view/data-science-new/`  name=`data-science-new`
+    6. raw=`https://www.shl.com/products/product-catalog/view/opq-ucf-development-action-planner-report/`  name=`opq-ucf-development-action-planner-report`
+    7. raw=`https://www.shl.com/products/product-catalog/view/opq-universal-competency-report/`  name=`opq-universal-competency-report`
+    8. raw=`https://www.shl.com/products/product-catalog/view/opq-universal-competency-report-2-0/`  name=`opq-universal-competency-report-2-0`
+    9. raw=`https://www.shl.com/products/product-catalog/view/ms-excel-new/`  name=`ms-excel-new`
+    10. raw=`https://www.shl.com/products/product-catalog/view/microsoft-sql-server-2014-programming/`  name=`microsoft-sql-server-2014-programming`
+------------------------------
+Query 62: Missed  (recs=10)
+   Expected name: microsoft-excel-365-essentials-new
+   Got Top name:  hipo-unlocking-potential-report-2-0
+    1. raw=`https://www.shl.com/products/product-catalog/view/hipo-unlocking-potential-report-2-0/`  name=`hipo-unlocking-potential-report-2-0`
+    2. raw=`https://www.shl.com/products/product-catalog/view/sql-server-analysis-services-%28ssas%29-%28new%29/`  name=`sql-server-analysis-services-ssas-new`
+    3. raw=`https://www.shl.com/products/product-catalog/view/software-business-analysis/`  name=`software-business-analysis`
+    4. raw=`https://www.shl.com/products/product-catalog/view/hipo-assessment-report-1-0/`  name=`hipo-assessment-report-1-0`
+    5. raw=`https://www.shl.com/products/product-catalog/view/data-science-new/`  name=`data-science-new`
+    6. raw=`https://www.shl.com/products/product-catalog/view/opq-ucf-development-action-planner-report/`  name=`opq-ucf-development-action-planner-report`
+    7. raw=`https://www.shl.com/products/product-catalog/view/opq-universal-competency-report/`  name=`opq-universal-competency-report`
+    8. raw=`https://www.shl.com/products/product-catalog/view/opq-universal-competency-report-2-0/`  name=`opq-universal-competency-report-2-0`
+    9. raw=`https://www.shl.com/products/product-catalog/view/ms-excel-new/`  name=`ms-excel-new`
+    10. raw=`https://www.shl.com/products/product-catalog/view/microsoft-sql-server-2014-programming/`  name=`microsoft-sql-server-2014-programming`
+------------------------------
+Query 63: Missed  (recs=10)
+   Expected name: professional-7-0-solution-3958
+   Got Top name:  hipo-unlocking-potential-report-2-0
+    1. raw=`https://www.shl.com/products/product-catalog/view/hipo-unlocking-potential-report-2-0/`  name=`hipo-unlocking-potential-report-2-0`
+    2. raw=`https://www.shl.com/products/product-catalog/view/sql-server-analysis-services-%28ssas%29-%28new%29/`  name=`sql-server-analysis-services-ssas-new`
+    3. raw=`https://www.shl.com/products/product-catalog/view/software-business-analysis/`  name=`software-business-analysis`
+    4. raw=`https://www.shl.com/products/product-catalog/view/hipo-assessment-report-1-0/`  name=`hipo-assessment-report-1-0`
+    5. raw=`https://www.shl.com/products/product-catalog/view/data-science-new/`  name=`data-science-new`
+    6. raw=`https://www.shl.com/products/product-catalog/view/opq-ucf-development-action-planner-report/`  name=`opq-ucf-development-action-planner-report`
+    7. raw=`https://www.shl.com/products/product-catalog/view/opq-universal-competency-report/`  name=`opq-universal-competency-report`
+    8. raw=`https://www.shl.com/products/product-catalog/view/opq-universal-competency-report-2-0/`  name=`opq-universal-competency-report-2-0`
+    9. raw=`https://www.shl.com/products/product-catalog/view/ms-excel-new/`  name=`ms-excel-new`
+    10. raw=`https://www.shl.com/products/product-catalog/view/microsoft-sql-server-2014-programming/`  name=`microsoft-sql-server-2014-programming`
+------------------------------
+Query 64: Missed  (recs=10)
+   Expected name: professional-7-1-solution
+   Got Top name:  hipo-unlocking-potential-report-2-0
+    1. raw=`https://www.shl.com/products/product-catalog/view/hipo-unlocking-potential-report-2-0/`  name=`hipo-unlocking-potential-report-2-0`
+    2. raw=`https://www.shl.com/products/product-catalog/view/sql-server-analysis-services-%28ssas%29-%28new%29/`  name=`sql-server-analysis-services-ssas-new`
+    3. raw=`https://www.shl.com/products/product-catalog/view/software-business-analysis/`  name=`software-business-analysis`
+    4. raw=`https://www.shl.com/products/product-catalog/view/hipo-assessment-report-1-0/`  name=`hipo-assessment-report-1-0`
+    5. raw=`https://www.shl.com/products/product-catalog/view/data-science-new/`  name=`data-science-new`
+    6. raw=`https://www.shl.com/products/product-catalog/view/opq-ucf-development-action-planner-report/`  name=`opq-ucf-development-action-planner-report`
+    7. raw=`https://www.shl.com/products/product-catalog/view/opq-universal-competency-report/`  name=`opq-universal-competency-report`
+    8. raw=`https://www.shl.com/products/product-catalog/view/opq-universal-competency-report-2-0/`  name=`opq-universal-competency-report-2-0`
+    9. raw=`https://www.shl.com/products/product-catalog/view/ms-excel-new/`  name=`ms-excel-new`
+    10. raw=`https://www.shl.com/products/product-catalog/view/microsoft-sql-server-2014-programming/`  name=`microsoft-sql-server-2014-programming`
+------------------------------
+Query 65: Missed  (recs=10)
+   Expected name: data-warehousing-concepts
+   Got Top name:  hipo-unlocking-potential-report-2-0
+    1. raw=`https://www.shl.com/products/product-catalog/view/hipo-unlocking-potential-report-2-0/`  name=`hipo-unlocking-potential-report-2-0`
+    2. raw=`https://www.shl.com/products/product-catalog/view/sql-server-analysis-services-%28ssas%29-%28new%29/`  name=`sql-server-analysis-services-ssas-new`
+    3. raw=`https://www.shl.com/products/product-catalog/view/software-business-analysis/`  name=`software-business-analysis`
+    4. raw=`https://www.shl.com/products/product-catalog/view/hipo-assessment-report-1-0/`  name=`hipo-assessment-report-1-0`
+    5. raw=`https://www.shl.com/products/product-catalog/view/data-science-new/`  name=`data-science-new`
+    6. raw=`https://www.shl.com/products/product-catalog/view/opq-ucf-development-action-planner-report/`  name=`opq-ucf-development-action-planner-report`
+    7. raw=`https://www.shl.com/products/product-catalog/view/opq-universal-competency-report/`  name=`opq-universal-competency-report`
+    8. raw=`https://www.shl.com/products/product-catalog/view/opq-universal-competency-report-2-0/`  name=`opq-universal-competency-report-2-0`
+    9. raw=`https://www.shl.com/products/product-catalog/view/ms-excel-new/`  name=`ms-excel-new`
+    10. raw=`https://www.shl.com/products/product-catalog/view/microsoft-sql-server-2014-programming/`  name=`microsoft-sql-server-2014-programming`
+------------------------------
+Final Mean Recall@10: 0.11 (10%)  (based on 65 processed queries)
+
+Process finished with exit code 0
