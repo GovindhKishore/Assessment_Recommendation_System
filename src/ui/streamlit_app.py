@@ -1,6 +1,14 @@
 import streamlit as st
 import os
 import sys
+try:
+    # This only works on Linux (Streamlit Cloud)
+    __import__('pysqlite3')
+    sys.modules['sqlite3'] = sys.modules.pop('pysqlite3')
+    print("Cloud SQLite fix applied successfully.")
+except ImportError:
+    # This will happen in PyCharm on Windows - and that's OK!
+    print("Running locally, using standard sqlite3.")
 
 # Add project root to path for imports
 sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), "..", "..")))
