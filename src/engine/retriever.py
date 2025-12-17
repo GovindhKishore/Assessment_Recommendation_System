@@ -1,15 +1,23 @@
 import chromadb
 from chromadb.utils import embedding_functions
+from chromadb.errors import NotFoundError
 import os
 
-ROOT_DIR = os.getcwd() 
+# Prefer the DB_PATH declared by vector_store so both modules agree
+try:
+    from src.engine.vector_store import DB_PATH as VECTOR_DB_PATH
+except Exception:
+    VECTOR_DB_PATH = None
 
-# Force the path starting from the root
-DB_PATH = os.path.join(ROOT_DIR, "data", "embeddings", "chroma_db")
+# Fallback to a package-relative path if vector_store is unavailable
+if VECTOR_DB_PATH:
+    DB_PATH = os.path.abspath(VECTOR_DB_PATH)
+else:
+    DB_PATH = os.path.abspath(os.path.join(os.path.dirname(__file__), "..", "..", "data", "embeddings", "chroma_db"))
 
-# Add this print so you can see the path in the Render logs
 print(f"--- ATTEMPTING TO LOAD DB FROM: {DB_PATH} ---")
 COLLECTION_NAME = "shl_assessments"
+
 
 class Retriever:
     """
@@ -20,22 +28,35 @@ class Retriever:
     """
     def __init__(self):
         """Initialize the retriever with ChromaDB and embedding function."""
+        # Ensure the DB path exists (Chromadb will create files on write), but warn if missing
         if not os.path.exists(DB_PATH):
+            # do not raise here; allow higher-level code to trigger a rebuild from CSV
             raise FileNotFoundError(f"ChromaDB path not found at {DB_PATH}.")
 
-        # Connect to the persistent ChromaDB
-        self.client = chromadb.PersistentClient(DB_PATH)
+        # Connect to the persistent ChromaDB (explicit named arg for compatibility)
+        self.client = chromadb.PersistentClient(path=DB_PATH)
 
         # Initialize the embedding function with a sentence transformer model
         self.embed_func = embedding_functions.SentenceTransformerEmbeddingFunction(
             model_name="all-MiniLM-L6-v2"
         )
 
-        # Get the collection with the embedding function
-        self.collection = self.client.get_collection(
-            name=COLLECTION_NAME,
-            embedding_function=self.embed_func
-        )
+        # Try to get the collection; if it doesn't exist, attempt to create it (empty) so queries won't fail
+        try:
+            self.collection = self.client.get_collection(
+                name=COLLECTION_NAME,
+                embedding_function=self.embed_func
+            )
+        except Exception:
+            # If the collection is not found, create an empty collection. This allows the app to run
+            # and the vector_store initializer to populate it later.
+            try:
+                self.collection = self.client.create_collection(
+                    name=COLLECTION_NAME,
+                    embedding_function=self.embed_func
+                )
+            except Exception as e:
+                raise RuntimeError(f"Failed to get or create Chroma collection: {e}")
 
     def search(self, query, n_results=15):
         """

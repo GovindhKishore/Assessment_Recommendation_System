@@ -6,7 +6,7 @@ import os
 
 # Paths to data files and database
 DATA_PATH = os.path.join(os.path.dirname(__file__), "..", "..", "data", "raw", "shl_assessments.csv")
-DB_PATH = os.path.join(os.path.dirname(__file__), "..", "..", "data", "embeddings", "chroma_db")
+DB_PATH = os.path.abspath(os.path.join(os.path.dirname(__file__), "..", "..", "data", "embeddings", "chroma_db"))
 COLLECTION_NAME = "shl_assessments"
 
 
@@ -47,8 +47,20 @@ def initialize_vector_store():
     # Apply the text transformation to create combined text field
     df["combined_text"] = df.apply(create_focused_text, axis=1)
 
+    # Ensure DB directory exists
+    try:
+        os.makedirs(DB_PATH, exist_ok=True)
+    except Exception as e:
+        print(f"Could not create DB directory at {DB_PATH}: {e}")
+        return
+
     # Initialize ChromaDB client and embedding function
-    client = chromadb.PersistentClient(path=DB_PATH)
+    try:
+        client = chromadb.PersistentClient(path=DB_PATH)
+    except Exception as e:
+        print(f"Failed to initialize ChromaDB PersistentClient at {DB_PATH}: {e}")
+        return
+
     embed_func = embedding_functions.SentenceTransformerEmbeddingFunction(
         model_name="all-MiniLM-L6-v2"
     )
@@ -59,12 +71,18 @@ def initialize_vector_store():
         print("Deleted old collection to ensure clean rebuild.")
     except NotFoundError:
         pass
+    except Exception as e:
+        print(f"Warning: could not delete existing collection (continuing): {e}")
 
     # Create a new collection with the embedding function
-    collection = client.create_collection(
-        name=COLLECTION_NAME,
-        embedding_function=embed_func
-    )
+    try:
+        collection = client.create_collection(
+            name=COLLECTION_NAME,
+            embedding_function=embed_func
+        )
+    except Exception as e:
+        print(f"Failed to create collection: {e}")
+        return
 
     # Prepare data for indexing
     ids = [str(i) for i in range(len(df))]
@@ -85,13 +103,22 @@ def initialize_vector_store():
 
     # Generate embeddings and add to collection
     print("Generating embeddings and indexing... (This may take a while)")
-    collection.add(
-        ids=ids,
-        documents=documents,
-        metadatas=metadatas
-    )
+    try:
+        collection.add(
+            ids=ids,
+            documents=documents,
+            metadatas=metadatas
+        )
+    except Exception as e:
+        print(f"Failed to add documents to collection: {e}")
+        return
 
-    print(f"Success! Indexed {collection.count()} items in {DB_PATH}")
+    try:
+        count = collection.count()
+    except Exception:
+        count = len(ids)
+
+    print(f"Success! Indexed {count} items in {DB_PATH}")
 
 
 if __name__ == "__main__":

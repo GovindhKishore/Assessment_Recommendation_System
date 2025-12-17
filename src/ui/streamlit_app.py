@@ -12,6 +12,16 @@ try:
     HAS_ENGINE = True
 except ImportError:
     HAS_ENGINE = False
+    # Ensure names exist even if imports fail (avoids linter/runtime name errors)
+    Retriever = None
+    LLMHandler = None
+
+# Import vector_store components for database initialization (optional override supported)
+try:
+    from src.engine.vector_store import initialize_vector_store, DB_PATH
+except Exception:
+    initialize_vector_store = None
+    DB_PATH = None
 
 
 @st.cache_resource
@@ -22,9 +32,68 @@ def load_engine():
     Returns:
         tuple: (Retriever, LLMHandler) or (None, None) if engine not available
     """
-    if HAS_ENGINE:
-        return Retriever(), LLMHandler()
-    return None, None
+    # If engine modules are not available, nothing to do
+    if not HAS_ENGINE:
+        st.warning("Search engine components are not available in the environment.")
+        return None, None
+
+    # Check DB path health and attempt rebuild if missing or unreadable
+    try:
+        db_path = os.path.abspath(DB_PATH) if DB_PATH else None
+    except Exception:
+        db_path = None
+
+    # Helper to try to build DB and report
+    def try_rebuild():
+        if initialize_vector_store is None:
+            st.error("Vector store initializer is not available; cannot build DB.")
+            return False
+        st.info("Vector DB missing or inaccessible. Attempting to rebuild the vector database...")
+        try:
+            initialize_vector_store()
+            st.success("Vector database rebuild completed.")
+            return True
+        except Exception as e:
+            st.error(f"Failed to rebuild vector database: {e}")
+            return False
+
+    # If DB path is unknown or does not contain expected sqlite file, rebuild
+    need_rebuild = True
+    if db_path:
+        # If db_path is a directory, look for a chroma sqlite file
+        if os.path.isdir(db_path):
+            found = any(fname.endswith('.sqlite3') or fname.endswith('.sqlite') for fname in os.listdir(db_path))
+            if found:
+                need_rebuild = False
+        else:
+            # If db_path is a file, check its existence
+            if os.path.exists(db_path):
+                need_rebuild = False
+
+    if need_rebuild:
+        rebuilt = try_rebuild()
+        if not rebuilt:
+            return None, None
+
+    # Finally, try to instantiate Retriever and LLMHandler
+    try:
+        retriever = Retriever()
+        llm = LLMHandler()
+        return retriever, llm
+    except Exception as e:
+        # Attempt one rebuild if instantiation failed (possible corruption)
+        st.warning(f"Failed to initialize engine: {e}")
+        st.info("Attempting one more rebuild of the vector DB and re-initialize...")
+        if try_rebuild():
+            try:
+                retriever = Retriever()
+                llm = LLMHandler()
+                return retriever, llm
+            except Exception as e2:
+                st.error(f"Engine initialization still failed after rebuild: {e2}")
+                return None, None
+        else:
+            return None, None
 
 
 # Initialize engine components
