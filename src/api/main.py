@@ -3,6 +3,18 @@ import sys
 from fastapi import FastAPI, HTTPException
 from pydantic import BaseModel
 import uvicorn
+from fastapi.middleware.cors import CORSMiddleware
+
+app = FastAPI()
+
+# This is the "Bouncer" that allows everyone in
+app.add_middleware(
+    CORSMiddleware,
+    allow_origins=["*"],  # Allows all domains (recruiter's tools, your streamlit, etc.)
+    allow_credentials=True,
+    allow_methods=["*"],  # Allows GET, POST, etc. [cite: 157, 166]
+    allow_headers=["*"],  # Allows all headers
+)
 
 # Add project root to path for imports
 proj_root = os.path.abspath(os.path.join(os.path.dirname(__file__), "..", ".."))
