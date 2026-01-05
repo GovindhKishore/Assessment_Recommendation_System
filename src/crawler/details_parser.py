@@ -64,7 +64,7 @@ def get_details(url):
 
     return data
 
-# python
+
 
 if __name__ == "__main__":
     get_details("https://www.shl.com/products/product-catalog/view/Apprentice + 8.0 Job Focused Assessment/")
