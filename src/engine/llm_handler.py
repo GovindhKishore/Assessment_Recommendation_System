@@ -128,7 +128,7 @@ if __name__ == "__main__":
     print("Testing LLM Handler...")
     handler = LLMHandler()
 
-    # Test query combining technical and soft skills
+
     test_query = "I need a Java developer who is good at teamwork"
 
     results = handler.rerank(test_query, primary_matches)
