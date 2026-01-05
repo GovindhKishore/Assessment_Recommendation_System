@@ -29,7 +29,7 @@ def crawl_shl():
             debug_path = os.path.join(os.path.dirname(__file__), "html_debugging_files", f"last_page_debug_{start_index}.html")
             with open(debug_path, "w", encoding="utf-8") as f:
                 f.write(response.text or f"Status: {response.status_code}\nNo body.")
-            # only proceed on 200
+            # Validate successful HTTP response status before parsing
             if response.status_code != 200:
                 print(f"- Saved debug HTML to `{debug_path}`. Skipping batch.")
                 continue
@@ -41,9 +41,8 @@ def crawl_shl():
                 print("No trigger text found. Ending crawl.")
                 break
 
-            # Robust table-finding strategy
+            # Crawl up the DOM tree to find the specific table holding the data
             table = None
-            # 1) nearest ancestor table
             table = target_text.find_parent("table")
 
 
@@ -52,7 +51,7 @@ def crawl_shl():
                 print(f"Debug HTML: `{debug_path}`")
                 break
 
-            rows = table.find_all("tr")[1:]  # Skip header
+            rows = table.find_all("tr")[1:]  # Skip header which have the column names
             if not rows:
                 print("No rows found (End of catalog?).")
                 break
@@ -69,15 +68,15 @@ def crawl_shl():
                 raw_link = link_tag['href']
                 link = raw_link if raw_link.startswith("http") else "https://www.shl.com" + raw_link
 
-                # 2. CAPTURE ADAPTIVE STATUS
+                # Capture ADAPTIVE STATUS
                 adaptive_status = "No"
                 if len(cols) > 2:
                     adaptive_col = cols[2]
 
-                    # Exact match based on your screenshot
+                    # Found during inspection: the '-yes' class inside the span marks a green 'Adaptive' indicator.
                     if adaptive_col.find("span", class_="catalogue_circle -yes"):
                         adaptive_status = "Yes"
-                    # Robust check: looks for "-yes" anywhere in the class name
+                    
                     elif adaptive_col.find(class_=lambda c: c and "-yes" in str(c)):
                         adaptive_status = "Yes"
 
