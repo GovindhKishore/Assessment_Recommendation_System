@@ -16,7 +16,7 @@ The system follows a Two-Stage Retrieval Pipeline to balance speed and accuracy:
 
 1. **Candidate Generation (Retrieval)**: Uses ChromaDB and sentence-transformers to perform semantic search across 377+ unique assessments.
 
-2. **Scoring & Ranking (Reranking)**: Employs the Gemini (Gemma-3-4b-it) LLM to evaluate the top candidates against specific job nuances (e.g., time limits, seniority).
+2. **Scoring & Ranking (Reranking)**: Employs the Gemini (gemini-2.5-flash) LLM to evaluate the top candidates against specific job nuances (e.g., time limits, seniority).
 
 ## Key Features
 - **Semantic Matching**: Understands the context of a Job Description rather than just matching keywords.
