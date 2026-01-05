@@ -34,13 +34,11 @@ The system follows a Two-Stage Retrieval Pipeline to balance speed and accuracy:
 
 - **Embeddings**: all-MiniLM-L6-v2 (Sentence-Transformers)
 
-- **LLM**: Google Gemini (Gemma-3-4b-it)
+- **LLM**: Google Gemini (gemini-2.5-flash)
 
 - **API**: FastAPI & Uvicorn
 
 - **Frontend**: Streamlit
-
-- **Deployment Helpers**: pysqlite3-binary (for cloud environment compatibility)
 
 ## Installation & Setup
 ### 1. Clone & Environment
@@ -102,8 +100,6 @@ python evaluations/generate_submission.py
 - **Data Deduplication**: The database was purged and rebuilt to remove duplicate entries, increasing recommendation diversity and Recall@10 accuracy.
 
 - **API Fallback**: Implemented a fallback to raw vector scores when LLM rate limits are hit, ensuring 100% system availability.
-
-- **Batch Processing Throttling**: Added a 15-second delay between test-set queries to accommodate Gemini Free Tier quotas without compromising result quality.
 
 ## License
 This project is licensed under the MIT License.
